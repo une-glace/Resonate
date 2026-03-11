@@ -14,7 +14,8 @@
 
 ## Overview 
 Reosnate is a SOTA text-to-audio generator reinforced with online GRPO algorithm. 
-This repo provides a comprehensive pipeline for audio synthesis, covering Pre-training, SFT, DPO, and GRPO. 
+It leverages the sophisticated reasoning capabilities of modern Large Audio Language Models as reward models. 
+This repo provides a comprehensive pipeline for audio generation, covering Pre-training, SFT, DPO, and GRPO. 
 
 <div align="center">
   <img src="sets/Resonate_model.png" alt="" width="800">
