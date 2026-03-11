@@ -1,0 +1,33 @@
+datasets: 
+  - name: AudioCaps
+    weight: 1
+    meta: [PATH_TO_YOUR_META_JSONL]
+
+  - name: AudioSet
+    weight: 1
+    meta: [PATH_TO_YOUR_META_JSONL]
+
+  - name: FreeSound
+    weight: 1
+    meta:
+      - PATH_TO_YOUR_META_JSONL
+
+  - name: AudioSetSL
+    weight: 1
+    meta: [PATH_TO_YOUR_META_JSONL]
+
+  - name: AudioStock
+    weight: 1
+    meta: [PATH_TO_YOUR_META_JSONL]
+    
+  - name: VGGSound
+    weight: 1
+    meta: [PATH_TO_YOUR_META_JSONL]
+
+  - name: BBC_Sound_Effects
+    weight: 1
+    meta: [PATH_TO_YOUR_META_JSONL]
+
+  - name: Clotho
+    weight: 1
+    meta: [PATH_TO_YOUR_META_JSONL]

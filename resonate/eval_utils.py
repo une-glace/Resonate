@@ -1,0 +1,127 @@
+import dataclasses
+import logging
+from pathlib import Path
+from typing import Optional
+
+import numpy as np
+import torch
+from colorlog import ColoredFormatter
+from PIL import Image
+from torchvision.transforms import v2
+import os
+import string
+
+import torch
+import torch.nn.functional as F
+import torchaudio
+from tqdm import tqdm
+
+from resonate.model.flow_matching import FlowMatching
+from resonate.model.networks import FluxAudio
+from resonate.model.sequence_config import CONFIG_16K, CONFIG_44K, SequenceConfig
+from resonate.model.utils.features_utils import FeaturesUtils
+
+log = logging.getLogger()
+
+
+@dataclasses.dataclass
+class ModelConfig:
+    model_name: str
+    model_path: Path
+    vae_path: Path
+    bigvgan_16k_path: Optional[Path]
+    mode: str
+
+    @property
+    def seq_cfg(self) -> SequenceConfig:
+        if self.mode == '16k':
+            return CONFIG_16K  # get sequence config when calling cfg.seq_cfgs
+        elif self.mode == '44k':
+            return CONFIG_44K
+
+    def download_if_needed(self):
+        raise NotImplementedError("Downloading models is not supported")
+
+
+fluxaudio_s = ModelConfig(model_name='fluxaudio_s', 
+                           model_path=Path('./weights/fluxaudio_s_full.pth'),  # will be specified later 
+                           vae_path=Path('./weights/v1-16.pth'),
+                           bigvgan_16k_path=Path('./weights/best_netG.pt'),
+                           mode='16k')
+resonate_s = ModelConfig(model_name='resonate_s', 
+                           model_path=Path('./weights/resonate_s_full.pth'),  # will be specified later 
+                           vae_path=Path('./weights/v1-16.pth'),
+                           bigvgan_16k_path=Path('./weights/best_netG.pt'),
+                           mode='16k')
+resonate_l = ModelConfig(model_name='resonate_l', 
+                           model_path=Path('./weights/resonate_l_full.pth'),  # will be specified later 
+                           vae_path=Path('./weights/v1-16.pth'),
+                           bigvgan_16k_path=Path('./weights/best_netG.pt'),
+                           mode='16k')
+
+all_model_cfg: dict[str, ModelConfig] = {
+    'fluxaudio_s': fluxaudio_s, 
+    'resonate_s': resonate_s, 
+    'resonate_l': resonate_l, 
+}
+
+
+def generate_fm(
+    text: Optional[list[str]],
+    *,
+    negative_text: Optional[list[str]] = None,
+    feature_utils: FeaturesUtils,
+    net: FluxAudio,
+    fm: FlowMatching,
+    rng: torch.Generator,
+    cfg_strength: float,
+    latent_seq_len: Optional[int] = None,
+) -> torch.Tensor:
+    device = feature_utils.device
+    dtype = feature_utils.dtype
+
+    bs = len(text)
+    seq_len = latent_seq_len if latent_seq_len is not None else net.latent_seq_len
+
+    if text is not None:
+        text_features, text_features_c = feature_utils.encode_text(text)
+    else:
+        text_features, text_features_c = net.get_empty_string_sequence(bs)
+
+    if negative_text is not None:
+        assert len(negative_text) == bs
+        negative_text_features = feature_utils.encode_text(negative_text)
+    else:
+        negative_text_features = net.get_empty_string_sequence(bs)
+
+    x0 = torch.randn(bs,
+                     seq_len,
+                     net.latent_dim,
+                     device=device,
+                     dtype=dtype,
+                     generator=rng)
+    preprocessed_conditions = net.preprocess_conditions(text_features, text_features_c)
+    empty_conditions = net.get_empty_conditions(
+        bs, negative_text_features=negative_text_features if negative_text is not None else None)
+
+    cfg_ode_wrapper = lambda t, x: net.ode_wrapper(t, x, preprocessed_conditions, empty_conditions,
+                                                   cfg_strength)
+    x1 = fm.to_data(cfg_ode_wrapper, x0)
+    x1 = net.unnormalize(x1)
+    spec = feature_utils.decode(x1)
+    audio = feature_utils.vocode(spec)
+    return audio
+
+
+LOGFORMAT = "[%(log_color)s%(levelname)-8s%(reset)s]: %(log_color)s%(message)s%(reset)s"
+
+
+def setup_eval_logging(log_level: int = logging.INFO):
+    logging.root.setLevel(log_level) # set up root logger <=> logging.getLogger().setLevel(log_level) 
+    formatter = ColoredFormatter(LOGFORMAT)
+    stream = logging.StreamHandler()  # to Console
+    stream.setLevel(log_level)
+    stream.setFormatter(formatter)
+    log = logging.getLogger() 
+    log.setLevel(log_level)
+    log.addHandler(stream)

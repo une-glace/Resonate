@@ -1,0 +1,103 @@
+defaults:
+  - base_config    
+  - override data: audiocaps    # change here for loading different text features in training/evaluation
+  - override hydra/job_logging: custom  
+  - _self_             
+
+hydra:
+  run:
+    dir: /inspire/hdd/project/embodied-multimodality/chenxie-25019/xiquan/exps/TTA/${exp_id}
+  output_subdir: train-${now:%Y-%m-%d_%H-%M-%S}-hydra
+
+ema: 
+  start: 0
+
+mini_train: False
+example_train: False
+
+## data 
+dataset: data/AudioCaps/GRPO_Meta
+online_feature_extraction: True
+audio_max_length: 10
+audio_sample_rate: 44100
+latent_mean: sets/latent_mean_44k.pt
+latent_std: sets/latent_std_44k.pt
+
+## data loader: 
+use_dynamic_batch: False
+frames_threshold: 640
+max_samples: 96
+drop_residual: False
+
+## model
+model: fluxaudio_m_44k # meanaudio_s, fluxaudio_s
+weight: ./weights/Resonate_PT.pth
+text_encoder_name: flan-t5  # umT5, flan-t5, flan-t5-clap, flan-t5-clap-cat, clip
+text_dim: 1024
+text_c_dim: 1024 
+use_rope: True
+
+## Sampling
+sample: 
+  num_steps: 10
+  eval_num_steps: 40
+  guidance_scale: 4.5
+  train_batch_size: 24
+  num_audio_per_prompt: 24 # rollout number 
+  num_batches_per_epoch: 4
+  global_std: true
+  same_latent: false
+  test_batch_size: 16
+  noise_level: 0.7
+
+## training
+train: 
+  cfg: True
+  batch_size: 24 
+  gradient_accumulation_steps: 2
+  num_inner_epochs: 1
+  timestep_fraction: 0.99
+  beta: 0.04  # for KL loss
+  lora_path: null
+  use_8bit_adam: false
+  ema: False
+  # optimizer
+  learning_rate: 1e-4
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_weight_decay: 1e-4
+  adam_epsilon: 1e-8
+  max_grad_norm: 1.0
+  adv_clip_max: 5
+  # the PPO clip range
+  clip_range: 1e-4
+  clip_range_lt: 1e-4
+  clip_range_gt: 1e-4
+# other
+reward_fn:
+  "qwen25_omni_semantic_align_score": 1.0
+
+prompt_fn: audioprompt
+use_wandb: false
+use_lora: false
+num_checkpoint_limit: 5
+mixed_precision: bf16
+allow_tf32: false
+per_prompt_stat_tracking: true
+eval_freq: 100 # epoch
+do_eval: False
+save_freq: 100 # epoch
+total_epoch: 1000
+log_text_interval: 1
+
+
+## useless
+enable_grad_scaler: True
+num_iterations: 100_000
+linear_warmup_steps: 1_000
+lr_schedule: step
+lr_schedule_steps: [40_000, 45_000]  # this is not used, lr_schedule_steps will be determined by the number of iterations
+lr_schedule_gamma: 0.1
+output_name: null   # for eval
+use_meanflow: True
+use_repa: False
