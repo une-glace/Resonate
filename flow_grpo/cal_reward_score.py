@@ -11,14 +11,12 @@ from scipy.stats import pearsonr, spearmanr, kendalltau
 from rewards import (
     qwen25_omni_semantic_align_score,
     qwen3_omni_thinking_semantic_align_score,
-    qwen25_omni_thinking_semantic_align_score, 
     qwen3_omni_semantic_align_score,
     clap_score
 )
 from tqdm import tqdm
 
 """
-cd /inspire/hdd/project/embodied-multimodality/public/xqli/TTA/MeanAudio
 python flow_grpo/eval_reward.py qwen25_omni_semantic_align_score
 python flow_grpo/eval_reward.py qwen3_omni_thinking_semantic_align_score
 python flow_grpo/eval_reward.py qwen25_omni_thinking_semantic_align_score
@@ -26,9 +24,6 @@ python flow_grpo/eval_reward.py qwen3_omni_semantic_align_score
 python flow_grpo/eval_reward.py clap_score
 """
 
-# ====== 配置 ======
-CSV_PATH = "/inspire/hdd/project/embodied-multimodality/chenxie-25019/xiquan/data/human_eval/audio/scores.csv"
-AUDIO_DIR = "/inspire/hdd/project/embodied-multimodality/chenxie-25019/xiquan/data/human_eval/audio"
 DEVICE = "cuda"
 
 # ====== load reward fn ======
@@ -54,7 +49,7 @@ def get_prompt_text(prompt_id: str) -> str:
 
     Tries the 'text' field first; if unavailable, tries common variants.
     """
-    prompt_path = "/inspire/hdd/project/embodied-multimodality/public/xqli/TTA/TTA-Bench-tools/prompts/acc_prompt.json"
+    prompt_path = "./sets/acc_prompt.json"
 
     prompts = json.load(open(prompt_path, 'r'))
     

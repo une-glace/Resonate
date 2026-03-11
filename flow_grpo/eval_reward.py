@@ -16,7 +16,6 @@ from rewards import (
 from tqdm import tqdm
 
 """
-cd /inspire/hdd/project/embodied-multimodality/public/xqli/TTA/MeanAudio
 python flow_grpo/eval_reward.py qwen25_omni_semantic_align_score
 python flow_grpo/eval_reward.py qwen3_omni_thinking_semantic_align_score
 python flow_grpo/eval_reward.py qwen25_omni_thinking_semantic_align_score
@@ -25,8 +24,8 @@ python flow_grpo/eval_reward.py clap_score
 """
 
 # ====== 配置 ======
-CSV_PATH = "/inspire/hdd/project/embodied-multimodality/chenxie-25019/xiquan/data/human_eval/audio/scores.csv"
-AUDIO_DIR = "/inspire/hdd/project/embodied-multimodality/chenxie-25019/xiquan/data/human_eval/audio"
+CSV_PATH = ""
+AUDIO_DIR = ""
 DEVICE = "cuda"
 
 # ====== load reward fn ======
@@ -44,7 +43,7 @@ elif reward_fn_str == "clap_score":
 else:
     raise NotImplementedError
 
-OUT_JSONL = f"/inspire/hdd/project/embodied-multimodality/public/xqli/TTA/MeanAudio/flow_grpo/eval_reward/{reward_fn_str}_test.jsonl"
+OUT_JSONL = f"./flow_grpo/eval_reward/{reward_fn_str}_test.jsonl"
 
 # ====== 读取人工评测 ======
 df = pd.read_csv(CSV_PATH)
