@@ -1,10 +1,3 @@
-export HF_HOME="/inspire/hdd/global_user/chenxie-25019/cache/meanaudio"
-export TORCH_HOME="/inspire/hdd/global_user/chenxie-25019/cache/torch_cache"
-export HF_HUB_OFFLINE=1
-export TORCH_HUB_OFFLINE=1
-export WANDB_MODE=offline
-
-
 DEBUG=False
 
 export CUDA_VISIBLE_DEVICES=0,1,2,3
@@ -38,6 +31,3 @@ torchrun --standalone --nproc_per_node=$NUM_GPUS \
     ++use_rope=True \
     ++use_wandb=False \
     ++debug=$DEBUG
-
-## Eval on TTA-Bench
-# bash scripts/flowmatching/eval_flowmatching.sh train_config_online_feature_flant5_44kMMVAE $exp_id tta-bench-acc

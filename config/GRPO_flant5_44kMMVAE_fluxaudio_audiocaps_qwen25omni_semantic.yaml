@@ -6,7 +6,7 @@ defaults:
 
 hydra:
   run:
-    dir: /inspire/hdd/project/embodied-multimodality/chenxie-25019/xiquan/exps/TTA/${exp_id}
+    dir: ./exps/TTA/${exp_id}
   output_subdir: train-${now:%Y-%m-%d_%H-%M-%S}-hydra
 
 ema: 

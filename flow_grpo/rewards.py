@@ -48,8 +48,8 @@ def qwen25_omni_semantic_align_score(device):
         Qwen2_5OmniProcessor,
     )
     from qwen_omni_utils import process_mm_info
-    # QWEN_25_OMNI_MODEL = "../../models/Qwen25-omni"
-    QWEN_25_OMNI_MODEL = "Qwen/Qwen2.5-Omni-7B"
+    QWEN_25_OMNI_MODEL = "../../models/Qwen25-omni"
+    # QWEN_25_OMNI_MODEL = "Qwen/Qwen2.5-Omni-7B"
     model = Qwen2_5OmniForConditionalGeneration.from_pretrained(
         QWEN_25_OMNI_MODEL,
         torch_dtype="auto",

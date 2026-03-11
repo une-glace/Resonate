@@ -1,10 +1,3 @@
-export HF_HOME="/inspire/hdd/global_user/chenxie-25019/cache/meanaudio"
-export TORCH_HOME="/inspire/hdd/global_user/chenxie-25019/cache/torch_cache"
-export HF_HUB_OFFLINE=1
-export TORCH_HUB_OFFLINE=1
-export WANDB_MODE=offline
-
-
 DEBUG=False
 
 export CUDA_VISIBLE_DEVICES=0,1
@@ -23,5 +16,5 @@ torchrun --standalone --nproc_per_node=$NUM_GPUS \
     train_grpo.py \
     --config-name $config_name \
     exp_id=$exp_id \
-    use_wandb=True \
+    use_wandb=False \
     debug=$DEBUG

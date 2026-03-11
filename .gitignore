@@ -16,8 +16,8 @@ training/example_output/
 app/
 docs/
 
-data/*
-!data/.gitkeep
+# data/*
+# !data/.gitkeep
 
 weights/*
 !weights/.gitkeep
