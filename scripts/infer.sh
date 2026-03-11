@@ -1,9 +1,9 @@
 export CUDA_VISIBLE_DEVICES=0
 
-ckpt_path=./weights/Resonate_PT.pth
+ckpt_path=./weights/Resonate_GRPO.pth
 prompt="Keys typing repeatedly"
 config_name=GRPO_flant5_44kMMVAE_fluxaudio_audiocaps_qwen25omni_semantic
-output_path=./output/resonate_pt/output
+output_path=./output/resonate_grpo/output
 
 python infer.py \
     --config ${config_name}.yaml \

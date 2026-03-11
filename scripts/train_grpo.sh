@@ -1,4 +1,5 @@
 DEBUG=False
+export WANDB_MODE=offline
 
 export CUDA_VISIBLE_DEVICES=0,1
 NUM_GPUS=$(echo ${CUDA_VISIBLE_DEVICES:-""} | tr ',' '\n' | wc -l)
@@ -16,5 +17,5 @@ torchrun --standalone --nproc_per_node=$NUM_GPUS \
     train_grpo.py \
     --config-name $config_name \
     exp_id=$exp_id \
-    use_wandb=False \
+    use_wandb=True \
     debug=$DEBUG
