@@ -1,0 +1,3752 @@
+[
+    {
+        "id": "prompt_1501",
+        "prompt_text": "Anti-gravity device activation sound",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "Anti-gravity device activation sound"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1502",
+        "prompt_text": "The sound of a robotic dog running",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "The sound of a robotic dog running"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1503",
+        "prompt_text": "Space station airlock release sound",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "Space station airlock release sound"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1504",
+        "prompt_text": "Holographic projection activation sound",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "Holographic projection activation sound"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1505",
+        "prompt_text": "Electromagnetic resonance at the edge of the wormhole",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "Electromagnetic resonance at the edge of the wormhole"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1506",
+        "prompt_text": "The AI assistant self-fixes the sound",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "The AI assistant self-fixes the sound"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1507",
+        "prompt_text": "Virtual pet blinking sound",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "Virtual pet blinking sound"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1508",
+        "prompt_text": "The sound of a stealth vehicle gliding",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "The sound of a stealth vehicle gliding"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1509",
+        "prompt_text": "Plasma lightsaber cutting object sound",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "Plasma lightsaber cutting object sound"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1510",
+        "prompt_text": "Mars rover night navigation sound",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "Mars rover night navigation sound"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1511",
+        "prompt_text": "Deep sea giant fish vibrate at low frequencies",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "Deep sea giant fish vibrate at low frequencies"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1512",
+        "prompt_text": "The sound of condensation in the crater at night",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "The sound of condensation in the crater at night"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1513",
+        "prompt_text": "Microaudio frequencies emitted by auroral resonance",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "Microaudio frequencies emitted by auroral resonance"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1514",
+        "prompt_text": "A fine line of calving inside a glacier",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "A fine line of calving inside a glacier"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1515",
+        "prompt_text": "Atmospheric edge storm arc jumping sound",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "Atmospheric edge storm arc jumping sound"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1516",
+        "prompt_text": "The electric skateboard suddenly accelerated",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "The electric skateboard suddenly accelerated"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1517",
+        "prompt_text": "Automatic curtain motor softly",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "Automatic curtain motor softly"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1518",
+        "prompt_text": "Smart refrigerator night self-check sound",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "Smart refrigerator night self-check sound"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1519",
+        "prompt_text": "The AI voice assistant interacts with the cat",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "The AI voice assistant interacts with the cat"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1520",
+        "prompt_text": "The smart speaker identifies a failure tone",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "The smart speaker identifies a failure tone"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1521",
+        "prompt_text": "Tuvan throat low frequency resonance",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "Tuvan throat low frequency resonance"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1522",
+        "prompt_text": "Quick marimba combo",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "Quick marimba combo"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1523",
+        "prompt_text": "Digital folk musical instrument fusion performance",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "Digital folk musical instrument fusion performance"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1524",
+        "prompt_text": "Futuristic Tango Rhythm structure",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "Futuristic Tango Rhythm structure"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1525",
+        "prompt_text": "Erhu performance in simulated zero gravity",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "Erhu performance in simulated zero gravity"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1526",
+        "prompt_text": "The sound of falling metal in lava",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "The sound of falling metal in lava"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1527",
+        "prompt_text": "The sound of an electronic storm crossing the desert",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "The sound of an electronic storm crossing the desert"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1528",
+        "prompt_text": "The wings of transparent creatures reflect sound waves",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "The wings of transparent creatures reflect sound waves"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1529",
+        "prompt_text": "Space debris hitting the lightsail",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "Space debris hitting the lightsail"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1530",
+        "prompt_text": "The maglev train reverberates into the underwater tunnel",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 1,
+        "event_list": [
+            "The maglev train reverberates into the underwater tunnel"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1531",
+        "prompt_text": "Shrill whistles clash with distorted guitar riffs in an echoing hallway.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Wolf-whistling",
+            "Heavy metal"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1532",
+        "prompt_text": "Murmurs weave into synthetic beats pulsing through layered reverb.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Babbling",
+            "Techno"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1533",
+        "prompt_text": "Harsh caws fade into a deep exhale across an empty sky.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Caw",
+            "Sigh"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1534",
+        "prompt_text": "A low engine hum blends with soft raindrops on tin.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Idling",
+            "Patter"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1535",
+        "prompt_text": "Roosters cry over faint TV static in the early morning.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Crowing, cock-a-doodle-doo",
+            "Television"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1536",
+        "prompt_text": "Carbonation bursts inside headphones emitting faint electrical hums.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Fizz",
+            "Headphones"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1537",
+        "prompt_text": "Distant bleating breaks through icy pressure cracks in a frozen cave.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Bleat",
+            "A fine line of calving inside a glacier"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1538",
+        "prompt_text": "A drumbeat lands after a sudden metallic bang.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Bang",
+            "Drum"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1539",
+        "prompt_text": "Skin slaps and pops under a curtain of textured pink noise.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Slap, smack",
+            "Pink noise"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1540",
+        "prompt_text": "Low humming vibrates as a sitar twangs gently beneath it.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Humming",
+            "Sitar"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1541",
+        "prompt_text": "Melodic wailing fights chaotic progressive rock distortion.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Progressive rock",
+            "Caterwaul"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1542",
+        "prompt_text": "A wolf’s bay overlaps with yak grunts in mountainous air.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Bay",
+            "Yak"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1543",
+        "prompt_text": "Gunfire merges with guitar solos in waves of sonic chaos.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Fusillade",
+            "Progressive rock"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1544",
+        "prompt_text": "Paper tears beside high-pitched alpine yodels.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Tearing",
+            "Yodeling"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1545",
+        "prompt_text": "Croaks punctuated by jingling metal in a foggy pond.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Frog",
+            "Jingle bell"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1546",
+        "prompt_text": "Reedy oboe tones meet intricate Carnatic vocal ornaments.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Oboe",
+            "Carnatic music"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1547",
+        "prompt_text": "A printer chugs while distant mantras echo from a hall.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Mantra",
+            "Printer"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1548",
+        "prompt_text": "A fan hums over raw a cappella harmonies in silence.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Mechanical fan",
+            "A capella"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1549",
+        "prompt_text": "Classic rock riffs slash into space with electric blade resonance.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Rock and roll",
+            "Plasma lightsaber cutting object sound"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1550",
+        "prompt_text": "Insects chirp as wind howls across dry fields.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Cricket",
+            "Howl (wind)"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1551",
+        "prompt_text": "Breathy gasps swirl into a sudden low-frequency boom.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Respiratory sounds",
+            "Sonic boom"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1552",
+        "prompt_text": "A door slams as a jet engine revs overhead.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Slam",
+            "Aircraft engine"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1553",
+        "prompt_text": "Liquid pours while orchestral phrases swell then break.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Pour",
+            "Orchestra"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1554",
+        "prompt_text": "Explosions interrupt rhythmic finger tapping on wood.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Artillery fire",
+            "Tap"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1555",
+        "prompt_text": "Sudden bursts, hollow pops, and heavy thuds fall together.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Burst, pop",
+            "Thunk"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1556",
+        "prompt_text": "Paper crumples over a looping, synthetic busy signal.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Crumpling, crinkling",
+            "Busy signal"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1557",
+        "prompt_text": "Voices sing alone before a sharp synthetic zing strikes.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "A capella",
+            "Zing"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1558",
+        "prompt_text": "Cornet tones ring through muffled percussive thunks.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Cornet",
+            "Thunk"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1559",
+        "prompt_text": "Harp strings strum through a haze of relaxed reggae grooves.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Harp",
+            "Reggae"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1560",
+        "prompt_text": "Ambient field noise blends with clinking kitchen utensils.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Field recording",
+            "Dishes, pots, and pans"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1561",
+        "prompt_text": "A bicycle chain turns under cinematic melodies.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Bicycle",
+            "Theme music"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1562",
+        "prompt_text": "Metal chimes overlap with wild animal cries in the distance.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Chime",
+            "Wild animals"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1563",
+        "prompt_text": "Hissing white noise cuts through sharp metallic snips.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "White noise",
+            "Scissors"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1564",
+        "prompt_text": "Blade rotations mix with sharp guitar finger taps.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Blender",
+            "Tapping (guitar technique)"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1565",
+        "prompt_text": "A rattle shakes above rumbling train wagons on tracks.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Rattle (instrument)",
+            "Railroad car, train wagon"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1566",
+        "prompt_text": "Iron clashes beside soft, rounded notes from a French horn.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Clang",
+            "French horn"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1567",
+        "prompt_text": "Tabla strikes crack as something fragile splinters open.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Tabla",
+            "Breaking"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1568",
+        "prompt_text": "Distant fireworks rise over smooth, undistracting background tones.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Fireworks",
+            "Background music"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1569",
+        "prompt_text": "A slow yawn merges with sticky tape being pulled.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Yawn",
+            "Packing tape, duct tape"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1570",
+        "prompt_text": "Metal filing sounds echo before a haunting train whistle.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Filing (rasp)",
+            "Train whistle"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1571",
+        "prompt_text": "Buzzing pulses break into saxophone trills.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Soprano saxophone",
+            "Buzz"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1572",
+        "prompt_text": "Thunder rolls through shifting soundscapes and environmental layers.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Channel, environment and background",
+            "Thunder"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1573",
+        "prompt_text": "Whispered voices click against a register drawer snapping shut.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Whispering",
+            "Cash register"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1574",
+        "prompt_text": "Heavy guitars pound against a robotic, off-rhythm tango beat.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Heavy metal",
+            "Futuristic Tango Rhythm structure"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1575",
+        "prompt_text": "A low drone pulses through strange internal ear emissions.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Drone",
+            "Otoacoustic emission"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1576",
+        "prompt_text": "Tubular bells ring while buzzing flickers between channels.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Tubular bells",
+            "Buzz"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1577",
+        "prompt_text": "A flute cuts short rhythmic heartbeats of synthesized pulse.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Flute",
+            "Pulse"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1578",
+        "prompt_text": "A sudden zing triggers overlapping bursts of laughter.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Zing",
+            "Laughter"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1579",
+        "prompt_text": "Snorts and grunts pulse under bass-heavy hip hop textures.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Pig",
+            "Hip hop music"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1580",
+        "prompt_text": "High-pitched ringing floats in unknown, ever-changing sonic forms.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Tinnitus, ringing in the ears",
+            "Source-ambiguous sounds"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1581",
+        "prompt_text": "Synth pulses vibrate as turntable scratches slice across.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Synthesizer",
+            "Scratching (performance technique)"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1582",
+        "prompt_text": "Vinyl scratches blend with distant waterfall echoes.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Scratching (performance technique)",
+            "Waterfall"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1583",
+        "prompt_text": "Laughter overlaps with sharp scraping against rough surfaces.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Children playing",
+            "Scrape"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1584",
+        "prompt_text": "An owl hoots softly under a twangy country tune.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Owl",
+            "Country"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1585",
+        "prompt_text": "A saxophone wails over a high-pitched humming engine.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Saxophone",
+            "Light engine (high frequency)"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1586",
+        "prompt_text": "Ratchet clicks and pawl snaps join scattered mechanical sounds.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Sounds of things",
+            "Ratchet, pawl"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1587",
+        "prompt_text": "A doorbell rings as a siren rises in slow motion.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Ding-dong",
+            "Civil defense siren"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1588",
+        "prompt_text": "Horses nicker over soft, sentimental background melodies.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Nicker",
+            "Tender music"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1589",
+        "prompt_text": "A CD spins while a tuner beeps in irregular tones.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Compact disc",
+            "Electronic tuner"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1590",
+        "prompt_text": "Kwaito rhythms collide with gritty grime loops.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Kwaito",
+            "Grime music"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1591",
+        "prompt_text": "Blades shear close to skin and hands shuffle quietly.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Scissors",
+            "Hands"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1592",
+        "prompt_text": "A dentist's drill pierces through insect buzzes.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Dental drill, dentist's drill",
+            "Bee, wasp, etc."
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1593",
+        "prompt_text": "Screaming children echo over scribbling pencil scratches.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Children shouting",
+            "Writing"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1594",
+        "prompt_text": "Fast marimba bursts compete with static dial tones.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Quick marimba combo",
+            "Dial tone"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1595",
+        "prompt_text": "A hammer strikes mid-spoken sound effects.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Onomatopoeia",
+            "Hammer"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1596",
+        "prompt_text": "Steam hisses between crisp wooden xylophone hits.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Steam",
+            "Marimba, xylophone"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1597",
+        "prompt_text": "Robotic rover pulses follow owl calls in pitch-black silence.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Mars rover night navigation sound",
+            "Hoot"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1598",
+        "prompt_text": "A wet plop echoes beneath ringing mallet percussion.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Plop",
+            "Mallet percussion"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1599",
+        "prompt_text": "Electric organ loops layer over sampled fragments.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Electronic organ",
+            "Sampler"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1600",
+        "prompt_text": "Low bass thuds merge with tape tearing sounds.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Bass (instrument role)",
+            "Packing tape, duct tape"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1601",
+        "prompt_text": "A firecracker pops beside a tight rimshot crack.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Firecracker",
+            "Rimshot"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1602",
+        "prompt_text": "Shofar blasts pierce through rushing marimba flourishes.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Shofar",
+            "Quick marimba combo"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1603",
+        "prompt_text": "Static crackles over sudden deep burps.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Crackle",
+            "Burping, eructation"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1604",
+        "prompt_text": "A drawer creaks open while beasts growl softly nearby.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Drawer open or close",
+            "Wild animals"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1605",
+        "prompt_text": "Sails flap over sonar pings in deep sea stillness.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Sailboat, sailing ship",
+            "Sonar"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1606",
+        "prompt_text": "Guitar strums dissolve into sitar twangs.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Guitar",
+            "Sitar"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1607",
+        "prompt_text": "Strings swell under the impact of a sonic boom.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Sonic boom",
+            "Bowed string instrument"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1608",
+        "prompt_text": "Sound distortion erupts, ending in a comical spring bounce.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Distortion",
+            "Boing"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1609",
+        "prompt_text": "Didgeridoo drones mix with scattered raindrops.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Didgeridoo",
+            "Raindrop"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1610",
+        "prompt_text": "A motorcycle growls as a turkey gobbles in reply.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Motorcycle",
+            "Turkey"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1611",
+        "prompt_text": "Rough sawing fades into a holographic tone sweep.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Sawing",
+            "Holographic projection activation sound"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1612",
+        "prompt_text": "Snare rolls clash with distant firework bursts.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Snare drum",
+            "Fireworks"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1613",
+        "prompt_text": "Sharp biting follows faint bubbling in crater darkness.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Biting",
+            "The sound of condensation in the crater at night"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1614",
+        "prompt_text": "Deep bellows stretch over sharp feline caterwauls.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Bellow",
+            "Caterwaul"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1615",
+        "prompt_text": "Whistles echo above barking and animal rustles.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Whistling",
+            "Domestic animals, pets"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1616",
+        "prompt_text": "Tuning forks ring beside resonating tubular bells.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Tuning fork",
+            "Tubular bells"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1617",
+        "prompt_text": "Hooves strike as a horse bays into the night.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Horse",
+            "Bay"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1618",
+        "prompt_text": "Wood creaks beneath the vibration of a tuning fork.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Wood",
+            "Tuning fork"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1619",
+        "prompt_text": "A singing bowl hums as a sharp squeal fades in.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Singing bowl",
+            "Squeal"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1620",
+        "prompt_text": "Wormhole frequencies swirl under retro disco beats.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Electromagnetic resonance at the edge of the wormhole",
+            "Disco"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1621",
+        "prompt_text": "Cracks explode before a blaring truck horn blasts.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Crack",
+            "Air horn, truck horn"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1622",
+        "prompt_text": "A bright ping shimmers above inaudible low-frequency hum.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Ping",
+            "Infrasound"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1623",
+        "prompt_text": "Frogs croak as metal drills grind through layers.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Croak",
+            "Drill"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1624",
+        "prompt_text": "Vibraphone notes stutter into firecracker pops.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Vibraphone",
+            "Firecracker"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1625",
+        "prompt_text": "Low vibrations shake the hum of a mowing blade.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Vibration",
+            "Lawn mower"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1626",
+        "prompt_text": "A swoosh rises then falls across rhythmic strumming.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Whoosh, swoosh, swish",
+            "Strum"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1627",
+        "prompt_text": "Mantras loop between indecipherable and shifting sound sources.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Source-ambiguous sounds",
+            "Mantra"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1628",
+        "prompt_text": "Chants pulse softly inside tightly sealed headphones.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Headphones",
+            "Chant"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1629",
+        "prompt_text": "Skin rubbing blends with train wheel screeches.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Rub",
+            "Train wheels squealing"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1630",
+        "prompt_text": "A broken signal loops over distant rhythmic sawing.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Busy signal",
+            "Sawing"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1631",
+        "prompt_text": "Electric arcs leap through storm air as a truck engine hums.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Atmospheric edge storm arc jumping sound",
+            "Truck"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1632",
+        "prompt_text": "A single ding echoes under deep sub-bass vibrations.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Ding",
+            "Bass (frequency range)"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1633",
+        "prompt_text": "Timpani rolls build behind repetitive dial tone pulses.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Dial tone",
+            "Timpani"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1634",
+        "prompt_text": "Sharp beatboxing rhythms cut through soft white hiss.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Beatboxing",
+            "Hiss"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1635",
+        "prompt_text": "Percussive beats fuse into layered synthesizer swells.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Beat",
+            "Synthesizer"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1636",
+        "prompt_text": "A short tone fades into distant guitar picking.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Brief tone",
+            "Guitar"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1637",
+        "prompt_text": "A jackhammer pounds, followed by a soft compressed puff.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Jackhammer",
+            "Puff"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1638",
+        "prompt_text": "Metal sizzles on lava while a child sings nearby.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "The sound of falling metal in lava",
+            "Child singing"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1639",
+        "prompt_text": "A siren wails as plucked strings vibrate in tension.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Civil defense siren",
+            "Plucked string instrument"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1640",
+        "prompt_text": "Spoken monologue flows over raw jungle breakbeats.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Narration, monologue",
+            "Oldschool jungle"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1641",
+        "prompt_text": "Signal effects shimmer beneath a distant bell ring.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Effects unit",
+            "Bell"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1642",
+        "prompt_text": "Gears click against constant low-level background noise.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Gears",
+            "Background noise"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1643",
+        "prompt_text": "A child sings while woodwinds flutter in reply.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Child singing",
+            "Wind instrument, woodwind instrument"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1644",
+        "prompt_text": "Digital storms sweep over dry strings of acoustic guitar.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "The sound of an electronic storm crossing the desert",
+            "Acoustic guitar"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1645",
+        "prompt_text": "Deep throat drones merge with a bed of white noise.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Tuvan throat low frequency resonance",
+            "White noise"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1646",
+        "prompt_text": "Gobbling blends with soft squeaks in sudden bursts.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Gobble",
+            "Squeak"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1647",
+        "prompt_text": "Mallet strikes echo between rhythmic sonar beeps.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Mallet percussion",
+            "Sonar"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1648",
+        "prompt_text": "A ukulele strums while frogs croak near water.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Ukulele",
+            "Frog"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1649",
+        "prompt_text": "Heavy panting overlaps with clinking forks and knives.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "Pant",
+            "Cutlery, silverware"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1650",
+        "prompt_text": "Muffled chewing pulses as a stealth vehicle glides past.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 2,
+        "event_list": [
+            "The sound of a stealth vehicle gliding",
+            "Chewing, mastication"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1651",
+        "prompt_text": "Twangs reverberate as gears grind beneath mechanical structures.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Twang",
+            "Mechanisms",
+            "Gears"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1652",
+        "prompt_text": "Punk rock riffs clash with sharp harp strums, producing a clunk.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Clunk",
+            "Punk rock",
+            "Harp"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1653",
+        "prompt_text": "A cowbell rings alongside the hum of a printer and a distant train whistle.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Cowbell",
+            "Printer",
+            "Train whistle"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1654",
+        "prompt_text": "Leaves rustle beneath the deep foghorn, while birds flap overhead.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Rustling leaves",
+            "Foghorn",
+            "Bird flight, flapping wings"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1655",
+        "prompt_text": "Thumps and thuds pulse beneath snapping fingers and a long train whistle.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Thump, thud",
+            "Finger snapping",
+            "Train whistle"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1656",
+        "prompt_text": "Zither notes blend with distant chants, cut through by shifting winds.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Zither",
+            "Chant",
+            "Wind noise (microphone)"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1657",
+        "prompt_text": "Yodels echo between rattle shakes and cooing pigeons.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Yodeling",
+            "Rattle (instrument)",
+            "Pigeon, dove"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1658",
+        "prompt_text": "A sampler hums, interrupted by a refrigerator’s self-check and crowd boos.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Sampler",
+            "Smart refrigerator night self-check sound",
+            "Booing"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1659",
+        "prompt_text": "A soft thunk crashes with crushing sounds, followed by a doorbell chime.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Thunk",
+            "Crushing",
+            "Doorbell"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1660",
+        "prompt_text": "Gasps mix with space debris tapping a lightsail, while birthday music plays faintly.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Gasp",
+            "Space debris hitting the lightsail",
+            "Birthday music"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1661",
+        "prompt_text": "Neighing and donkey braying rise as a shout pierces through the noise.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Neigh, whinny",
+            "Donkey, ass",
+            "Shout"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1662",
+        "prompt_text": "Eruptions rumble beneath grinding machinery, releasing bursts of steam.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Eruption",
+            "Grind",
+            "Steam"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1663",
+        "prompt_text": "Opera harmonies swell into the flowing wind, mingling with Bollywood melodies.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Opera",
+            "Wind",
+            "Music of Bollywood"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1664",
+        "prompt_text": "Theremin wails overlay trumpet blasts while chatter swells in the background.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Theremin",
+            "Trumpet",
+            "Chatter"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1665",
+        "prompt_text": "A hum throbs in sync with pizzicato strings plucking in the distance.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Hum",
+            "Throbbing",
+            "Pizzicato"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1666",
+        "prompt_text": "Silence breaks with skidding sounds, followed by inaudible otoacoustic emissions.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Silence",
+            "Skidding",
+            "Otoacoustic emission"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1667",
+        "prompt_text": "Horse snorts mix with operatic highs and the buzz of power tools.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Snort (horse)",
+            "Opera",
+            "Power tool"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1668",
+        "prompt_text": "A toothbrush hums softly as thunks align with UK garage beats.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Toothbrush",
+            "Thunk",
+            "UK garage"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1669",
+        "prompt_text": "Turkeys gobble alongside creaking mechanisms and an eerie howl.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Turkey",
+            "Mechanisms",
+            "Howl"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1670",
+        "prompt_text": "Violins weave through chatter, blending with zither melodies in soft harmony.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Violin, fiddle",
+            "Chatter",
+            "Zither"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1671",
+        "prompt_text": "Grinding metal clashes with roaring lions, followed by explosive fireworks.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Grind",
+            "Roaring cats (lions, tigers)",
+            "Fireworks"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1672",
+        "prompt_text": "A sink fills as keys jangle against the backdrop of generic impacts.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Sink (filling or washing)",
+            "Generic impact sounds",
+            "Keys jangling"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1673",
+        "prompt_text": "Steel guitars slide alongside dishes clattering in a rhythmic dance.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Steel guitar, slide guitar",
+            "Chord",
+            "Dishes, pots, and pans"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1674",
+        "prompt_text": "Waves crash as steelpan notes weave into a flowing melody.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Waves, surf",
+            "Steelpan",
+            "Melody"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1675",
+        "prompt_text": "Hands clap in time to Christian music, while a sliding door echoes nearby.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Hands",
+            "Christian music",
+            "Sliding door"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1676",
+        "prompt_text": "Shattering glass breaks through the click of a camera shutter and turkey calls.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Shatter",
+            "Single-lens reflex camera",
+            "Turkey"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1677",
+        "prompt_text": "A whirring machine screeches while a lullaby hums faintly in the distance.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Whir",
+            "Screech",
+            "Lullaby"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1678",
+        "prompt_text": "Engines rev as alarms blare, while an ice cream truck chimes cheerfully.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Accelerating, revving, vroom",
+            "Fire alarm",
+            "Ice cream truck, ice cream van"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1679",
+        "prompt_text": "Transparent wings hum as filing sounds buzz with distant noise.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "The wings of transparent creatures reflect sound waves",
+            "Filing (rasp)",
+            "Noise"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1680",
+        "prompt_text": "Liquids pour alongside the chopping of food, set against urban hums.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Liquid",
+            "Outside, urban or manmade",
+            "Chopping (food)"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1681",
+        "prompt_text": "Deep-sea fish vibrate in low frequencies beneath children's laughter.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Deep sea giant fish vibrate at low frequencies",
+            "Howl",
+            "Children playing"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1682",
+        "prompt_text": "UK garage basslines buzz under the subtle chirp of insects.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "UK garage",
+            "Buzz",
+            "Insect"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1683",
+        "prompt_text": "Hi-hat clicks interlock with bovine lowing and the echo of gargling sounds.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Hi-hat",
+            "Cattle, bovinae",
+            "Gargling"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1684",
+        "prompt_text": "Snoring rumbles over the growl of car engines and lions roaring.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Snoring",
+            "Car",
+            "Roaring cats (lions, tigers)"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1685",
+        "prompt_text": "Chords mix with effects units as deep-sea vibrations throb beneath.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Chord",
+            "Effects unit",
+            "Deep sea giant fish vibrate at low frequencies"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1686",
+        "prompt_text": "A shell deforms in cacophonous sounds, followed by distant barking.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Deformable shell",
+            "Cacophony",
+            "Bow-wow"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1687",
+        "prompt_text": "Chorus effects swirl around cap gun pops and scattered chatter.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Chorus effect",
+            "Cap gun",
+            "Chatter"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1688",
+        "prompt_text": "Booing mixes with snorts, building into rhythmic Afrobeat grooves.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Booing",
+            "Snort",
+            "Afrobeat"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1689",
+        "prompt_text": "The maglev train's hum reverberates through an underwater tunnel before an airlock release.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "The maglev train reverberates into the underwater tunnel",
+            "Loop",
+            "Space station airlock release sound"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1690",
+        "prompt_text": "Pulleys creak as Kwaito beats mingle with traditional rhythms.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Pulleys",
+            "Kwaito",
+            "Traditional music"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1691",
+        "prompt_text": "Clip-clops echo beside wails and moans under a Kuduro pulse.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Clip-clop",
+            "Wail, moan",
+            "Kuduro"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1692",
+        "prompt_text": "Jingles tinkle in rhythm with hip hop beats and shuffled card sounds.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Jingle, tinkle",
+            "Hip hop music",
+            "Shuffling cards"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1693",
+        "prompt_text": "Wood splinters as ambiguous sounds blend with a mandolin's gentle strums.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Splinter",
+            "Source-ambiguous sounds",
+            "Mandolin"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1694",
+        "prompt_text": "A melody bursts through burping eruptions, grinding metal in the background.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Melody",
+            "Burping, eructation",
+            "Grind"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1695",
+        "prompt_text": "Crushing sounds meet mooing cattle and a deep male voice singing.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Crushing",
+            "Moo",
+            "Male singing"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1696",
+        "prompt_text": "Electric pianos scratch out tunes beneath the twang of a banjo.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Electric piano",
+            "Scratch",
+            "Banjo"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1697",
+        "prompt_text": "Human breathing synchronizes with propellers and sitar melodies.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Human sounds",
+            "Propeller, airscrew",
+            "Sitar"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1698",
+        "prompt_text": "Sound effects collide with yawns and shuffled card decks.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Sound effect",
+            "Yawn",
+            "Shuffling cards"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1699",
+        "prompt_text": "A pump chimes over bluegrass strums as a bicycle wheel spins.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Pump (liquid)",
+            "Bluegrass",
+            "Bicycle"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1700",
+        "prompt_text": "Breathing follows the splintering crack of wood and a telephone bell rings out.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Breathing",
+            "Splinter",
+            "Telephone bell ringing"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1701",
+        "prompt_text": "Electronica pulses beneath deep double bass notes and distant church bells.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Electronica",
+            "Double bass",
+            "Church bell"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1702",
+        "prompt_text": "Wheezing cuts through a chaotic cacophony and cawing crows.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Wheeze",
+            "Cacophony",
+            "Crow"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1703",
+        "prompt_text": "Electronic tuner sweeps across EDM beats, drowned by noisy distortion.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Electronic tuner",
+            "Electronic dance music",
+            "Noise"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1704",
+        "prompt_text": "A sharp whip crack snaps into a gasping duck call.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Whip",
+            "Gasp",
+            "Duck"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1705",
+        "prompt_text": "Inside a vast hall, progressive rock concepts echo across the space.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Inside, large room or hall",
+            "Musical concepts",
+            "Progressive rock"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1706",
+        "prompt_text": "A blare of Middle Eastern music collides with an Erhu performance in zero gravity.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Blare",
+            "Middle Eastern music",
+            "Erhu performance in simulated zero gravity"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1707",
+        "prompt_text": "Afrobeat grooves pulse over ocean waves and birds flapping through the air.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Afrobeat",
+            "Ocean",
+            "Bird flight, flapping wings"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1708",
+        "prompt_text": "Mechanisms click in rhythm with a bass drum and splashing water.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Mechanisms",
+            "Bass drum",
+            "Water"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1709",
+        "prompt_text": "Animal calls are joined by the soft pump of liquid and an accordion’s wheeze.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Animal",
+            "Pump (liquid)",
+            "Accordion"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1710",
+        "prompt_text": "Sonar pings blend with the soft ding of a doorbell, followed by an eruption.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Sonar",
+            "Doorbell",
+            "Eruption"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1711",
+        "prompt_text": "Chirping tones rise with a puff of air and distant rain falls softly.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Chirp tone",
+            "Puff",
+            "Rain"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1712",
+        "prompt_text": "The sound of condensation in the crater at night mixes with a crack and a dog’s bark.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "The sound of condensation in the crater at night",
+            "Bow-wow",
+            "Crack"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1713",
+        "prompt_text": "A smart speaker glitches with a failure tone, followed by a caterwaul and oboe wail.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "The smart speaker identifies a failure tone",
+            "Caterwaul",
+            "Oboe"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1714",
+        "prompt_text": "Bathtub water fills with steelpan notes, shattering as it overflows.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Bathtub (filling or washing)",
+            "Steelpan",
+            "Shatter"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1715",
+        "prompt_text": "A chipmunk squeaks as an anti-gravity device hums, blending with a lively ensemble.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Chipmunk",
+            "Anti-gravity device activation sound",
+            "Musical ensemble"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1716",
+        "prompt_text": "Propellers whirr while a typewriter clacks and an alarm sounds.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Propeller, airscrew",
+            "Typewriter",
+            "Alarm"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1717",
+        "prompt_text": "Double bass thrums beneath birthday tunes and rocking guitar riffs.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Double bass",
+            "Birthday music",
+            "Rock and roll"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1718",
+        "prompt_text": "Steelpan beats mix with birds and the chaotic pop of a fusillade.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Steelpan",
+            "Bird",
+            "Fusillade"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1719",
+        "prompt_text": "A heart murmur pulses beneath a drawer sliding open and a ticking clock.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Heart murmur",
+            "Drawer open or close",
+            "Tick"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1720",
+        "prompt_text": "Ringtones and sonar pulses intertwine with the ringing of a resonator bell.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Ringtone",
+            "Sonar",
+            "Ringing (of resonator)"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1721",
+        "prompt_text": "Inside a small room, fire crackles under the hum of an anti-gravity device.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Inside, small room",
+            "Fire",
+            "Anti-gravity device activation sound"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1722",
+        "prompt_text": "Impact sounds echo as the AI assistant self-corrects, layering with infrasound.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Specific impact sounds",
+            "The AI assistant self-fixes the sound",
+            "Infrasound"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1723",
+        "prompt_text": "A giggle rises above heartbeat sounds, followed by a buzzing cellphone alert.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Giggle",
+            "Heart sounds, heartbeat",
+            "Cellphone buzz, vibrating alert"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1724",
+        "prompt_text": "Generic impact sounds merge with Rhodes piano and soaring soprano saxophone.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Generic impact sounds",
+            "Rhodes piano",
+            "Soprano saxophone"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1725",
+        "prompt_text": "A goat bleats under the soft pulse of a heart, followed by a turkey’s gobble.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Goat",
+            "Heart sounds, heartbeat",
+            "Gobble"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1726",
+        "prompt_text": "Miscellaneous noises blend with storm arcs, while piano notes ring faintly.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Miscellaneous sources",
+            "Atmospheric edge storm arc jumping sound",
+            "Piano"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1727",
+        "prompt_text": "Singing echoes across Shofar blasts, harmonized with marimba and xylophone.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Singing",
+            "Shofar",
+            "Marimba, xylophone"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1728",
+        "prompt_text": "Burps and whistles clash with wild animal calls in the background.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Burping, eructation",
+            "Whistling",
+            "Wild animals"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1729",
+        "prompt_text": "An Erhu plays in zero gravity, joined by rhythm and blues and digestive sounds.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Erhu performance in simulated zero gravity",
+            "Rhythm and blues",
+            "Digestive"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1730",
+        "prompt_text": "Kuduro beats pulse beneath an Erhu performance and MP3 track snippets.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Kuduro",
+            "Erhu performance in simulated zero gravity",
+            "MP3"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1731",
+        "prompt_text": "Bass drums rumble beneath the hum of an electric toothbrush in a public space.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Bass drum",
+            "Electric toothbrush",
+            "Inside, public space"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1732",
+        "prompt_text": "Livestock calls mix with human voices as the AI assistant self-corrects.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Livestock, farm animals, working animals",
+            "Human voice",
+            "The AI assistant self-fixes the sound"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1733",
+        "prompt_text": "Rhythm and blues grooves merge with whispered voices and the hum of power windows.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Rhythm and blues",
+            "Whispering",
+            "Power windows, electric windows"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1734",
+        "prompt_text": "Television buzzes with hiss, and beatboxing fills the gaps.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Television",
+            "Hiss",
+            "Beatboxing"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1735",
+        "prompt_text": "A cap gun pops between Bollywood rhythms and a tight beat.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Cap gun",
+            "Music of Bollywood",
+            "Beat"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1736",
+        "prompt_text": "A loudspeaker blares beneath the train whistle’s distant rumble.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Loudspeaker",
+            "Train whistle",
+            "Rumble"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1737",
+        "prompt_text": "Dubstep basslines collide with chewing sounds and crowd boos.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Dubstep",
+            "Chewing, mastication",
+            "Booing"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1738",
+        "prompt_text": "Basslines fade into silence before a sudden fire erupts.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Bassline",
+            "Silence",
+            "Fire"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1739",
+        "prompt_text": "Sirens wail under the influence of cheerful music and string sections.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Siren",
+            "Happy music",
+            "String section"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1740",
+        "prompt_text": "An electric skateboard zooms past, blending with Christian music and a lullaby.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "The electric skateboard suddenly accelerated",
+            "Christian music",
+            "Lullaby"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1741",
+        "prompt_text": "The AI assistant self-corrects as jingles tinkle over roadway traffic noise.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "The AI assistant self-fixes the sound",
+            "Jingle, tinkle",
+            "Traffic noise, roadway noise"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1742",
+        "prompt_text": "Marimba notes blend with clapping hands, interrupted by the ringing of tinnitus.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Marimba, xylophone",
+            "Clapping",
+            "Tinnitus, ringing in the ears"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1743",
+        "prompt_text": "Thunks echo as rail transport passes alongside the roar of a motorcycle.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Rail transport",
+            "Thunk",
+            "Motorcycle"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1744",
+        "prompt_text": "Change ringing resonates with owl calls, followed by the flush of a toilet.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Change ringing (campanology)",
+            "Owl",
+            "Toilet flush"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1745",
+        "prompt_text": "Trombone blasts meet the creak of a cupboard and the rush of a filling bathtub.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Trombone",
+            "Cupboard open or close",
+            "Bathtub (filling or washing)"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1746",
+        "prompt_text": "Typewriter keys clack alongside the hum of gears and the click of a computer keyboard.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Typewriter",
+            "Gears",
+            "Computer keyboard"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1747",
+        "prompt_text": "Roars rumble beneath applause and the tiny buzz of a housefly.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Roar",
+            "Applause",
+            "Fly, housefly"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1748",
+        "prompt_text": "Cupboard doors open with a clatter, while ska rhythms pulse with cowbell jingles.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Cupboard open or close",
+            "Ska",
+            "Cowbell"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1749",
+        "prompt_text": "Harpsichord notes clash with caterwauls, drifting over boat sounds and water splashing.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Harpsichord",
+            "Caterwaul",
+            "Boat, Water vehicle"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1750",
+        "prompt_text": "A space station airlock releases with a metallic crunch, joined by steel guitar slides.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Space station airlock release sound",
+            "Crunch",
+            "Steel guitar, slide guitar"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1751",
+        "prompt_text": "Holographic projection hums as trickles of water mix with sound equipment buzz.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Holographic projection activation sound",
+            "Trickle, dribble",
+            "Sound equipment"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1752",
+        "prompt_text": "Disco beats pulse beneath a steady drone and synthesized sweeps.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Disco",
+            "Drone",
+            "Synthesizer"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1753",
+        "prompt_text": "Motorboats roar, creaking with harmonica riffs dancing in the background.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Motorboat, speedboat",
+            "Creak",
+            "Harmonica"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1754",
+        "prompt_text": "A coin drops with a soft moo, followed by an upbeat pop melody.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Coin (dropping)",
+            "Moo",
+            "Pop music"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1755",
+        "prompt_text": "Chants rise with percussion rhythms, woven together by strumming guitars.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Chant",
+            "Percussion",
+            "Strum"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1756",
+        "prompt_text": "An acoustic environment hums as distant dings and clicking sounds punctuate the air.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Acoustic environment",
+            "Ding",
+            "Clicking"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1757",
+        "prompt_text": "Drum kits pound to the beat of rock and roll, while an animal howls nearby.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Drum kit",
+            "Rock and roll",
+            "Animal"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1758",
+        "prompt_text": "Gurgling water blends with radio waves and the distant crash of surf.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Gurgling",
+            "Radio",
+            "Waves, surf"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1759",
+        "prompt_text": "Aircraft roars overhead as clip-clops and a cacophony of sounds fills the space.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Aircraft",
+            "Clip-clop",
+            "Cacophony"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1760",
+        "prompt_text": "Groans swell beneath funny music, accompanied by violin and fiddle harmonies.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Groan",
+            "Funny music",
+            "Violin, fiddle"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1761",
+        "prompt_text": "The orchestra swells as mandolin plucks intertwine with piano keys.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Orchestra",
+            "Mandolin",
+            "Piano"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1762",
+        "prompt_text": "Wild animal calls echo as wood blocks strike in rhythm with Cumbia beats.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Wild animals",
+            "Wood block",
+            "Cumbia"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1763",
+        "prompt_text": "Sound equipment hums as a waterfall crashes and the AI self-corrects.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Sound equipment",
+            "Waterfall",
+            "The AI assistant self-fixes the sound"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1764",
+        "prompt_text": "Toots blend with Salsa rhythms, resonating in the air with natural reverberations.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Toot",
+            "Salsa music",
+            "Reverberation"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1765",
+        "prompt_text": "A deep rumble shakes the air, joined by human voices and the crash of metal in lava.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Rumble",
+            "Human voice",
+            "The sound of falling metal in lava"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1766",
+        "prompt_text": "Snaps echo as saw blades grind and race cars zoom past.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Snap",
+            "Sawing",
+            "Race car, auto racing"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1767",
+        "prompt_text": "Arrows whistle through the air as horses neigh and children chat.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Arrow",
+            "Horse",
+            "Child speech, kid speaking"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1768",
+        "prompt_text": "A microphone hums as otoacoustic emissions mix with the organ’s low growls.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Microphone",
+            "Otoacoustic emission",
+            "Hammond organ"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1769",
+        "prompt_text": "Gulls cry and seagulls swoop, blending with the haunting calls of whales.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Gull, seagull",
+            "Natural sounds",
+            "Whale vocalization"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1770",
+        "prompt_text": "Space debris taps the lightsail, cut through by distant pink noise and a soft ding-dong.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 3,
+        "event_list": [
+            "Space debris hitting the lightsail",
+            "Pink noise",
+            "Ding-dong"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1771",
+        "prompt_text": "Domestic animals and pets chatter softly, while wood blocks bounce in the backdrop of new-age music.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Domestic animals, pets",
+            "Bouncing",
+            "Wood block",
+            "New-age music"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1772",
+        "prompt_text": "Reverberations of country tunes twist with traditional music and distortion.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Reverberation",
+            "Country",
+            "Traditional music",
+            "Distortion"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1773",
+        "prompt_text": "Domestic sounds hum alongside chirp tones, blending with Soca rhythms and Mellotron swells.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Domestic sounds, home sounds",
+            "Soca music",
+            "Mellotron",
+            "Chirp tone"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1774",
+        "prompt_text": "Gargles mix with the rhythmic clack of a computer keyboard, punctuated by a Didgeridoo's moan and crinkling paper.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Gargling",
+            "Computer keyboard",
+            "Didgeridoo",
+            "Crumpling, crinkling"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1775",
+        "prompt_text": "A sine wave hums as mooing cows mix with the steady pulse of respiratory sounds and African rhythms.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Sine wave",
+            "Moo",
+            "Respiratory sounds",
+            "Music of Africa"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1776",
+        "prompt_text": "Frying food sizzles beneath the beats of Afrobeat and synthesizer tones, punctuated by a rhythmic tick.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Frying (food)",
+            "Synthesizer",
+            "Afrobeat",
+            "Tick"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1777",
+        "prompt_text": "Yells blend with onomatopoeic sounds and a bugle’s blast, sinking into psychedelic rock waves.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Yell",
+            "Onomatopoeia",
+            "Bugle",
+            "Psychedelic rock"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1778",
+        "prompt_text": "Accordion notes clash with sawing wood, as jingles and tinkles buzz in the background.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Accordion",
+            "Sawing",
+            "Jingle, tinkle",
+            "Buzz"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1779",
+        "prompt_text": "Trickle and dribble sounds are interrupted by grunts, classical music flowing softly over the sound of power tools.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Trickle, dribble",
+            "Grunt",
+            "Classical music",
+            "Power tool"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1780",
+        "prompt_text": "A human voice echoes, distorted by dental drills, deformable shells, and the pulse of a drum kit.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Human voice",
+            "Dental drill, dentist's drill",
+            "Deformable shell",
+            "Drum kit"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1781",
+        "prompt_text": "Background noise blends with farts, while a musical ensemble chops food rhythmically.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Background noise",
+            "Fart",
+            "Musical ensemble",
+            "Chopping (food)"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1782",
+        "prompt_text": "The ocean hums under the mid-frequency rumble of a distant engine, funk rhythms mixing with futuristic tango beats.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Ocean",
+            "Medium engine (mid frequency)",
+            "Funk",
+            "Futuristic Tango Rhythm structure"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1783",
+        "prompt_text": "A hiss rises above wolf-whistling, and beatboxing swells as the sound of flapping fills the air.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Hiss",
+            "Flap",
+            "Wolf-whistling",
+            "Beatboxing"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1784",
+        "prompt_text": "Guitar amplifiers roar as animals and glockenspiels chime, laughter bubbling beneath it all.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Guitar amplifier",
+            "Animal",
+            "Glockenspiel",
+            "Laughter"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1785",
+        "prompt_text": "Techno pulses beneath the drip of water, a male singer’s voice floating above the rumbling train.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Techno",
+            "Drip",
+            "Male singing",
+            "Train"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1786",
+        "prompt_text": "Explosions shatter the air, clangs and crumplings mingling with the burst of fireworks.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Explosion",
+            "Clang",
+            "Crumpling, crinkling",
+            "Fireworks"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1787",
+        "prompt_text": "A whoop echoes as water taps run, mallet percussion tapping out rhythms beneath holographic projections.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Whoop",
+            "Water tap, faucet",
+            "Mallet percussion",
+            "Holographic projection activation sound"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1788",
+        "prompt_text": "Rodents scurry, their tiny feet tapping across harps, bicycles, and non-motorized vehicles.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Rodents, rats, mice",
+            "Harp",
+            "Bicycle",
+            "Non-motorized land vehicle"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1789",
+        "prompt_text": "Pink noise shrouds the foghorn’s call, gospel music rising over a chattering crowd.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Pink noise",
+            "Foghorn",
+            "Gospel music",
+            "Chatter"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1790",
+        "prompt_text": "Clucks join musical concepts in independent melodies, the sounds of urban life weaving through.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Cluck",
+            "Musical concepts",
+            "Independent music",
+            "Outside, urban or manmade"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1791",
+        "prompt_text": "Streams rush alongside brass instruments and the hum of an aircraft engine, punctuated by distant clunks.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Stream",
+            "Brass instrument",
+            "Aircraft engine",
+            "Clunk"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1792",
+        "prompt_text": "Skateboards rumble while bees buzz, owls hoot, and gulls cry overhead.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Skateboard",
+            "Bee, wasp, etc.",
+            "Owl",
+            "Gull, seagull"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1793",
+        "prompt_text": "Ska rhythms bounce against keyboards, clocks ticking in time with ambient music.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Ska",
+            "Keyboard (musical)",
+            "Clock",
+            "Ambient music"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1794",
+        "prompt_text": "Timpani rolls and marimba beats reverberate under the soft whirr of an automatic curtain motor and typewriter clicks.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Timpani",
+            "Marimba, xylophone",
+            "Automatic curtain motor softly",
+            "Typewriter"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1795",
+        "prompt_text": "Clattering intensifies as a fire alarm blares, glockenspiels chime, and the Mars rover navigates the night.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Clatter",
+            "Fire alarm",
+            "Glockenspiel",
+            "Mars rover night navigation sound"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1796",
+        "prompt_text": "Sidetones echo beside the steady rattle of machine guns and cupboard doors opening or closing in water.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Sidetone",
+            "Machine gun",
+            "Cupboard open or close",
+            "Water"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1797",
+        "prompt_text": "Cracks and breaks punctuate futuristic tango rhythms, while insects buzz and sheep bleat softly.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Breaking",
+            "Futuristic Tango Rhythm structure",
+            "Insect",
+            "Sheep"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1798",
+        "prompt_text": "Digestive sounds gurgle beneath the hum of speech, cameras whirring, as disco beats pulse.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Digestive",
+            "Speech",
+            "Camera",
+            "Disco"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1799",
+        "prompt_text": "A drill whirs alongside a car alarm, blending into funk rhythms as cards shuffle in time.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Drill",
+            "Car alarm",
+            "Funk",
+            "Shuffling cards"
+        ],
+        "source": "template",
+        "notes": null
+    },
+    {
+        "id": "prompt_1800",
+        "prompt_text": "Synthetic voices hum beneath the whir of machines, wood creaking as sound waves resonate.",
+        "Dimensions of evaluation": "Generalization",
+        "event_count": 4,
+        "event_list": [
+            "Synthetic singing",
+            "Hum",
+            "Whir",
+            "Wood"
+        ],
+        "source": "template",
+        "notes": null
+    }
+]

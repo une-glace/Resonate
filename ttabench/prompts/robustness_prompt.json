@@ -1,0 +1,2402 @@
+[
+    {
+        "id": "prompt_1801",
+        "prompt_text": "honking of horns with rattling of passinG trains.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "8"
+    },
+    {
+        "id": "prompt_1802",
+        "prompt_text": "lArge aircraft taKing off with booming engines.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "11"
+    },
+    {
+        "id": "prompt_1803",
+        "prompt_text": "an engine is smooThly being RevVed up and then revved up all the way.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "16"
+    },
+    {
+        "id": "prompt_1804",
+        "prompt_text": "an aircraft mOtor is operating with rhythmic whirring, then wind roarS.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "19"
+    },
+    {
+        "id": "prompt_1805",
+        "prompt_text": "someone is snoring and an aDult male Laughs and speaks.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "33"
+    },
+    {
+        "id": "prompt_1806",
+        "prompt_text": "sMAll boy speaking and making animal sounds.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "48"
+    },
+    {
+        "id": "prompt_1807",
+        "prompt_text": "a womAn is spEaking a crowd chuckles a little.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "57"
+    },
+    {
+        "id": "prompt_1808",
+        "prompt_text": "audIence laughing and cheerinG, a man speaking, and a baby cries.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "65"
+    },
+    {
+        "id": "prompt_1809",
+        "prompt_text": "a large horn blow followed by repetItive hissing.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "77"
+    },
+    {
+        "id": "prompt_1810",
+        "prompt_text": "wind blows nearby, followed by people talKing nearby.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "78"
+    },
+    {
+        "id": "prompt_1811",
+        "prompt_text": "A woman giVes A sPeecH whiLE crowd apPLauds.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "82"
+    },
+    {
+        "id": "prompt_1812",
+        "prompt_text": "a man spEaKING Over an iNteRcom aS emErgencY SIrEns wail iN the distAnCe And GrOW louder as a vehIcle enginE runs.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "93"
+    },
+    {
+        "id": "prompt_1813",
+        "prompt_text": "a smaCK thEn a maN speAKIng fOllowed By High frequenCY Vibrating.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "94"
+    },
+    {
+        "id": "prompt_1814",
+        "prompt_text": "a maN talkIng wHiLe whipping And jUmpiNg, FOLlOwed by music.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "116"
+    },
+    {
+        "id": "prompt_1815",
+        "prompt_text": "quIEt, continuOus ruBbinG against fABRic.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "119"
+    },
+    {
+        "id": "prompt_1816",
+        "prompt_text": "a tool mOtor idleS and vibrATes, THen it accelEratES aNd iS accOmPanIed By lOUd buzziNg.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "139"
+    },
+    {
+        "id": "prompt_1817",
+        "prompt_text": "wOMAN speaks anD babY laUghs.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "148"
+    },
+    {
+        "id": "prompt_1818",
+        "prompt_text": "Echos oF dogs baRkinG, people talKINg And a heAvY door BeIng closed.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "151"
+    },
+    {
+        "id": "prompt_1819",
+        "prompt_text": "Man speAkiNG oveR LouD noisEs anD a cat mEowing.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "154"
+    },
+    {
+        "id": "prompt_1820",
+        "prompt_text": "A Dog bArking As a MAn is talkIng whilE bIrds CHirp and wind bLoWs InTo a micRopHone.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "155"
+    },
+    {
+        "id": "prompt_1821",
+        "prompt_text": "a man tALkInG AS inSectS BuZZ FolLOWed bY FoOTStEps walKIng oN GRaSS.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "166"
+    },
+    {
+        "id": "prompt_1822",
+        "prompt_text": "TiNkLiNG OccURs, An aDUlt FEMALE sPeAks, AND MUsIc playS iN the BackgrOUnD.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "175"
+    },
+    {
+        "id": "prompt_1823",
+        "prompt_text": "A tRAIN is cHUgGiNg aloNG BlOWS itS whistLe and steAm ESCApES fRoM itS EnGinE.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "190"
+    },
+    {
+        "id": "prompt_1824",
+        "prompt_text": "A vehiCle ShIfts ANd a MAN VoIcEs WHISperS.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "197"
+    },
+    {
+        "id": "prompt_1825",
+        "prompt_text": "eNgINE RunNINg QuiETly wIth FaInT murMuRInG.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "198"
+    },
+    {
+        "id": "prompt_1826",
+        "prompt_text": "MultIPLeS voiCeS spEAk in The baCKGrOUnd OF a ruNnING VEhIcLe.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "200"
+    },
+    {
+        "id": "prompt_1827",
+        "prompt_text": "Boy TaLKING witH a StrEAm ruNniNG IN THE bAckgrounD.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "213"
+    },
+    {
+        "id": "prompt_1828",
+        "prompt_text": "SeWInG mAcHinE cLAckiNG and StOPPing wItH A cLacK.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "221"
+    },
+    {
+        "id": "prompt_1829",
+        "prompt_text": "sEWiNg maChInE is BeInG USEd.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "225"
+    },
+    {
+        "id": "prompt_1830",
+        "prompt_text": "rUSTLiNG anD MUrmuRinG.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "234"
+    },
+    {
+        "id": "prompt_1831",
+        "prompt_text": "HUmmInG aND RUSTlIng WiTH DISTANT ChiRPS.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "239"
+    },
+    {
+        "id": "prompt_1832",
+        "prompt_text": "MUsIc IS pLAYING aS A CHILD Is TALKiNg.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "243"
+    },
+    {
+        "id": "prompt_1833",
+        "prompt_text": "LarGE VEhIclE craSHES iNTO WaTER aND ThEN DRIVES bY.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "251"
+    },
+    {
+        "id": "prompt_1834",
+        "prompt_text": "LOUD MOToR bOAT ROAR ANd LOUDER BacKGRoUND RoAr FOLlOWED bY Male YelLIng.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "252"
+    },
+    {
+        "id": "prompt_1835",
+        "prompt_text": "A hIGh pITChED CoNsTANT BeEpiNG, BRIEFly jOiNEd BY A SLIGHTLY LOWeR PITCHED AND More MuSICAL TOnE.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "261"
+    },
+    {
+        "id": "prompt_1836",
+        "prompt_text": "MEN SPEAkiNG iN tHE wINd.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "276"
+    },
+    {
+        "id": "prompt_1837",
+        "prompt_text": "A MUFFLED BUs EnGInE ACCeLERATING AS aN AIR VenTILATiON sYSTEM RUNS WHilE a GrOUP OF PeOPLE tAlKS In THe bacKgROuND.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "297"
+    },
+    {
+        "id": "prompt_1838",
+        "prompt_text": "BiRDS tWEeT THEn sLOw DOWN.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "309"
+    },
+    {
+        "id": "prompt_1839",
+        "prompt_text": "QUIck FOoTSTEPS ON A PAVEd SURFAcE AnD lOtS Of RusTLINg AND CHEWiNG uNTIL A Man tALKS.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "319"
+    },
+    {
+        "id": "prompt_1840",
+        "prompt_text": "A MAN sPEAKs cLEaRLy AND CArEFULLy.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "332"
+    },
+    {
+        "id": "prompt_1841",
+        "prompt_text": "A YOUNG WOMAN PERFORMS A SPEECH.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "333"
+    },
+    {
+        "id": "prompt_1842",
+        "prompt_text": "A WOMAN GIVES A DRAMATIC READING.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "334"
+    },
+    {
+        "id": "prompt_1843",
+        "prompt_text": "A FEMALE NARRATING VERY CLEARLY.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "336"
+    },
+    {
+        "id": "prompt_1844",
+        "prompt_text": "RAIN FALLING WITH WIND BLOWING AND MUSIC PLAYING AS DISTANT BIRDS CHIRP.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "350"
+    },
+    {
+        "id": "prompt_1845",
+        "prompt_text": "A CHILD SPEAKS, A FEW BEEPS, AND A MALE RAPPING.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "362"
+    },
+    {
+        "id": "prompt_1846",
+        "prompt_text": "SOMEBODY FIDDLING OR TINKERING WITH A SMALL OBJECT.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "363"
+    },
+    {
+        "id": "prompt_1847",
+        "prompt_text": "A MAN MAKES A SPEECH IN A LOUD TONE.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "374"
+    },
+    {
+        "id": "prompt_1848",
+        "prompt_text": "A LARGE TRAIN HORN FOLLOWED BY A FAST MOVING TRAIN.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "387"
+    },
+    {
+        "id": "prompt_1849",
+        "prompt_text": "A LARGE ENGINE IDOLS, A TRAIN HORN BLOWS.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "390"
+    },
+    {
+        "id": "prompt_1850",
+        "prompt_text": "FILING IS ONGOING AS AN ADULT MALE SPEAKS, AND THEN METAL SCRAPING OCCURS.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "uppercase",
+        "source": "template",
+        "notes": "392"
+    },
+    {
+        "id": "prompt_1851",
+        "prompt_text": "Honking of horns with clattering of passing trains.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "8; rattling->clattering, 4"
+    },
+    {
+        "id": "prompt_1852",
+        "prompt_text": "Large aircraft taking off with thundering engines.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "11; booming->thundering, 5"
+    },
+    {
+        "id": "prompt_1853",
+        "prompt_text": "An engine is evenly being revved up and then revved up all the way.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "16; smoothly->evenly, 3"
+    },
+    {
+        "id": "prompt_1854",
+        "prompt_text": "An aircraft motor is operating with rhythmic humming, then wind roars.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "19; whirring->humming, 7"
+    },
+    {
+        "id": "prompt_1855",
+        "prompt_text": "Someone is snoring and an adult male chuckles and speaks.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "33; laughs->chuckles, 7"
+    },
+    {
+        "id": "prompt_1856",
+        "prompt_text": "Small boy speaking and creating animal sounds.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "48; making->creating, 4"
+    },
+    {
+        "id": "prompt_1857",
+        "prompt_text": "A woman is speaking a crowd giggles a little.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "57; chuckles->giggles, 6"
+    },
+    {
+        "id": "prompt_1858",
+        "prompt_text": "Audience laughing and cheering, a man speaking, and a infant cries.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "65; baby->infant, 9"
+    },
+    {
+        "id": "prompt_1859",
+        "prompt_text": "A large horn blow followed by recurrent hissing.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "77; repetitive->recurrent, 6"
+    },
+    {
+        "id": "prompt_1860",
+        "prompt_text": "Wind gusts nearby, followed by people talking nearby.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "78; blows->gusts, 1"
+    },
+    {
+        "id": "prompt_1861",
+        "prompt_text": "A woman delivers a speech while crowd applauds.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "82; gives->delivers, 2"
+    },
+    {
+        "id": "prompt_1862",
+        "prompt_text": "A man speaking over an intercom as emergency sirens howl in the distance and grow louder as a vehicle engine runs.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "93; wail->howl, 9"
+    },
+    {
+        "id": "prompt_1863",
+        "prompt_text": "A smack then a man speaking followed by high frequency trembling.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "94; vibrating->trembling, 10"
+    },
+    {
+        "id": "prompt_1864",
+        "prompt_text": "A man talking while lashing and jumping, followed by music.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "116; whipping->lashing, 4"
+    },
+    {
+        "id": "prompt_1865",
+        "prompt_text": "Quiet, continuous scrubbing against fabric.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "119; rubbing->scrubbing, 2"
+    },
+    {
+        "id": "prompt_1866",
+        "prompt_text": "A tool motor idles and shakes, then it accelerates and is accompanied by loud buzzing.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "139; vibrates->shakes, 5"
+    },
+    {
+        "id": "prompt_1867",
+        "prompt_text": "Woman speaks and infant laughs.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "148; baby->infant, 3"
+    },
+    {
+        "id": "prompt_1868",
+        "prompt_text": "Echos of dogs yelping, people talking and a heavy door being closed.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "151; barking->yelping, 3"
+    },
+    {
+        "id": "prompt_1869",
+        "prompt_text": "Man speaking over loud noises and a feline meowing.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "154; cat->feline, 7"
+    },
+    {
+        "id": "prompt_1870",
+        "prompt_text": "A dog barking as a man is chatting while birds chirp and wind blows into a microphone.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "155; talking->chatting, 7"
+    },
+    {
+        "id": "prompt_1871",
+        "prompt_text": "A man talking as insects hum followed by footsteps walking on grass.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "166; buzz->hum, 5"
+    },
+    {
+        "id": "prompt_1872",
+        "prompt_text": "Tinkling occurs, an adult female converses, and music plays in the background.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "175; speaks->converses, 5"
+    },
+    {
+        "id": "prompt_1873",
+        "prompt_text": "A train is chugging along blows its whistle and vapor escapes from its engine.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "190; steam->vapor, 9"
+    },
+    {
+        "id": "prompt_1874",
+        "prompt_text": "A vehicle shifts and a man mutters whispers.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "197; voices->mutters, 6"
+    },
+    {
+        "id": "prompt_1875",
+        "prompt_text": "Engine running quietly with faint mumbling.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "198; murmuring->mumbling, 5"
+    },
+    {
+        "id": "prompt_1876",
+        "prompt_text": "Several voices speak in the background of a running vehicle.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "200; Multiples->Several, 0"
+    },
+    {
+        "id": "prompt_1877",
+        "prompt_text": "Boy conversing with a stream running in the background.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "213; talking->conversing, 1"
+    },
+    {
+        "id": "prompt_1878",
+        "prompt_text": "Sewing machine clacking and halting with a clack.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "221; stopping->halting, 4"
+    },
+    {
+        "id": "prompt_1879",
+        "prompt_text": "Sewing machine is being utilized.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "225; used->utilized, 4"
+    },
+    {
+        "id": "prompt_1880",
+        "prompt_text": "Rustling and mumbling.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "234; murmuring->mumbling, 2"
+    },
+    {
+        "id": "prompt_1881",
+        "prompt_text": "Humming and rustling with distant tweets.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "239; chirps->tweets, 5"
+    },
+    {
+        "id": "prompt_1882",
+        "prompt_text": "Music is playing as a child is chatting.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "243; talking->chatting, 7"
+    },
+    {
+        "id": "prompt_1883",
+        "prompt_text": "Large vehicle collides into water and then drives by.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "251; crashes->collides, 2"
+    },
+    {
+        "id": "prompt_1884",
+        "prompt_text": "Loud motor boat roar and louder background clamor followed by male yelling.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "252; roar->clamor, 7"
+    },
+    {
+        "id": "prompt_1885",
+        "prompt_text": "A high pitched constant beeping, briefly joined by a slightly lower pitched and more melodic tone.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "261; musical->melodic, 14"
+    },
+    {
+        "id": "prompt_1886",
+        "prompt_text": "Men conversing in the wind.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "276; speaking->conversing, 1"
+    },
+    {
+        "id": "prompt_1887",
+        "prompt_text": "A muffled bus engine accelerating as an air ventilation system operates while a group of people talks in the background.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "297; runs->operates, 10"
+    },
+    {
+        "id": "prompt_1888",
+        "prompt_text": "Birds chirp then slow down.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "309; tweet->chirp, 1"
+    },
+    {
+        "id": "prompt_1889",
+        "prompt_text": "Quick footsteps on a paved surface and lots of rustling and munching until a man talks.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "319; chewing->munching, 11"
+    },
+    {
+        "id": "prompt_1890",
+        "prompt_text": "A man speaks distinctly and carefully.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "332; clearly->distinctly, 3"
+    },
+    {
+        "id": "prompt_1891",
+        "prompt_text": "A young woman delivers a speech.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "333; performs->delivers, 3"
+    },
+    {
+        "id": "prompt_1892",
+        "prompt_text": "A woman provides a dramatic reading.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "334; gives->provides, 2"
+    },
+    {
+        "id": "prompt_1893",
+        "prompt_text": "A female narrating extremely clearly.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "336; very->extremely, 3"
+    },
+    {
+        "id": "prompt_1894",
+        "prompt_text": "Rain falling with wind blowing and music playing as distant birds twitter.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "350; chirp->twitter, 11"
+    },
+    {
+        "id": "prompt_1895",
+        "prompt_text": "A child speaks, a few beeps, and a male rhyming.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "362; rapping->rhyming, 9"
+    },
+    {
+        "id": "prompt_1896",
+        "prompt_text": "Somebody meddling or tinkering with a small object.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "363; fiddling->meddling, 1"
+    },
+    {
+        "id": "prompt_1897",
+        "prompt_text": "A man delivers a speech in a loud tone.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "374; makes->delivers, 2"
+    },
+    {
+        "id": "prompt_1898",
+        "prompt_text": "A large train horn followed by a fast traveling train.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "387; moving->traveling, 8"
+    },
+    {
+        "id": "prompt_1899",
+        "prompt_text": "A large engine idles, a train horn blows.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "390; idols->idles, 3"
+    },
+    {
+        "id": "prompt_1900",
+        "prompt_text": "Filing is ongoing as an adult male speaks, and then metal scratching occurs.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "synonym",
+        "source": "template",
+        "notes": "392; scraping->scratching, 11"
+    },
+    {
+        "id": "prompt_1901",
+        "prompt_text": "Honking of horns witht rattling of passing trains.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "8; with->witht, 3"
+    },
+    {
+        "id": "prompt_1902",
+        "prompt_text": "Large aircraft taking off witht booming engines.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "11; with->witht, 4"
+    },
+    {
+        "id": "prompt_1903",
+        "prompt_text": "An engine is smoothly beeing revved up and then revved up all the way.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "16; being->beeing, 4"
+    },
+    {
+        "id": "prompt_1904",
+        "prompt_text": "An aircraft motor is operating with rhythmic whirring, thne wind roars.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "19; then->thne, 8"
+    },
+    {
+        "id": "prompt_1905",
+        "prompt_text": "Someone is snoring and an adult male laughs adn speaks.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "33; and->adn, 8"
+    },
+    {
+        "id": "prompt_1906",
+        "prompt_text": "Small boy speaking and making animal soudns.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "48; sounds->soudns, 6"
+    },
+    {
+        "id": "prompt_1907",
+        "prompt_text": "A woman is speaking a crowd chuckles a littel.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "57; little->littel, 8"
+    },
+    {
+        "id": "prompt_1908",
+        "prompt_text": "Audience laughing and cheering, a man speaking, adn a baby cries.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "65; and->adn, 7"
+    },
+    {
+        "id": "prompt_1909",
+        "prompt_text": "A larg horn blow followed by repetitive hissing.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "77; large->larg, 1"
+    },
+    {
+        "id": "prompt_1910",
+        "prompt_text": "Wind blows nearby, followed by people tlaking nearby.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "78; talking->tlaking, 6"
+    },
+    {
+        "id": "prompt_1911",
+        "prompt_text": "A woman gives a speech hwile crowd applauds.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "82; while->hwile, 5"
+    },
+    {
+        "id": "prompt_1912",
+        "prompt_text": "A man speaking over an intercom as emergency sirens wail in tje distance and grow louder as a vehicle engine runs.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "93; the->tje, 11"
+    },
+    {
+        "id": "prompt_1913",
+        "prompt_text": "A smack thne a man speaking followed by high frequency vibrating.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "94; then->thne, 2"
+    },
+    {
+        "id": "prompt_1914",
+        "prompt_text": "A man talking hwile whipping and jumping, followed by music.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "116; while->hwile, 3"
+    },
+    {
+        "id": "prompt_1915",
+        "prompt_text": "Quiet, continous rubbing against fabric.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "119; continuous->continous, 1"
+    },
+    {
+        "id": "prompt_1916",
+        "prompt_text": "A tool motor idles and vibrates, then it accelerates adn is accompanied by loud buzzing.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "139; and->adn, 9"
+    },
+    {
+        "id": "prompt_1917",
+        "prompt_text": "Woman speaks adn baby laughs.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "148; and->adn, 2"
+    },
+    {
+        "id": "prompt_1918",
+        "prompt_text": "Echos of dogs barking, people tlaking and a heavy door being closed.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "151; talking->tlaking, 5"
+    },
+    {
+        "id": "prompt_1919",
+        "prompt_text": "Man speaking over loud noises adn a cat meowing.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "154; and->adn, 5"
+    },
+    {
+        "id": "prompt_1920",
+        "prompt_text": "A dog barking as a man is tlaking while birds chirp and wind blows into a microphone.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "155; talking->tlaking, 7"
+    },
+    {
+        "id": "prompt_1921",
+        "prompt_text": "A man tlaking as insects buzz followed by footsteps walking on grass.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "166; talking->tlaking, 2"
+    },
+    {
+        "id": "prompt_1922",
+        "prompt_text": "Tinkling occurs, an adult female speaks, and music plays in tje background.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "175; the->tje, 10"
+    },
+    {
+        "id": "prompt_1923",
+        "prompt_text": "A train is chugging along blows its whistle and steam escapes frome its engine.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "190; from->frome, 11"
+    },
+    {
+        "id": "prompt_1924",
+        "prompt_text": "A vehicule shifts and a man voices whispers.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "197; vehicle->vehicule, 1"
+    },
+    {
+        "id": "prompt_1925",
+        "prompt_text": "Engine running quietly witht faint murmuring.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "198; with->witht, 3"
+    },
+    {
+        "id": "prompt_1926",
+        "prompt_text": "Multiples voices speak in the backgorund of a running vehicle.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "200; background->backgorund, 5"
+    },
+    {
+        "id": "prompt_1927",
+        "prompt_text": "Boy talking with a stream runnung in the background.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "213; running->runnung, 5"
+    },
+    {
+        "id": "prompt_1928",
+        "prompt_text": "Sewing machine clacking adn stopping with a clack.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "221; and->adn, 3"
+    },
+    {
+        "id": "prompt_1929",
+        "prompt_text": "Sewing machine is beeing used.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "225; being->beeing, 3"
+    },
+    {
+        "id": "prompt_1930",
+        "prompt_text": "Rustling adn murmuring.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "234; and->adn, 1"
+    },
+    {
+        "id": "prompt_1931",
+        "prompt_text": "Humming adn rustling with distant chirps.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "239; and->adn, 1"
+    },
+    {
+        "id": "prompt_1932",
+        "prompt_text": "Music is playing as a child is tlaking.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "243; talking->tlaking, 7"
+    },
+    {
+        "id": "prompt_1933",
+        "prompt_text": "Large vehicle crashes into water adn then drives by.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "251; and->adn, 5"
+    },
+    {
+        "id": "prompt_1934",
+        "prompt_text": "Loud motor boat roar adn louder background roar followed by male yelling.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "252; and->adn, 4"
+    },
+    {
+        "id": "prompt_1935",
+        "prompt_text": "A high pitched constant beeping, briefly joined by a slighly lower pitched and more musical tone.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "261; slightly->slighly, 9"
+    },
+    {
+        "id": "prompt_1936",
+        "prompt_text": "Men speaking in tje wind.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "276; the->tje, 3"
+    },
+    {
+        "id": "prompt_1937",
+        "prompt_text": "A muffled bus engine accelerating as an air ventilation system runs while a group of peopel talks in the background.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "297; people->peopel, 15"
+    },
+    {
+        "id": "prompt_1938",
+        "prompt_text": "Birds tweet thne slow down.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "309; then->thne, 2"
+    },
+    {
+        "id": "prompt_1939",
+        "prompt_text": "Quick footsteps on a paved surfce and lots of rustling and chewing until a man talks.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "319; surface->surfce, 5"
+    },
+    {
+        "id": "prompt_1940",
+        "prompt_text": "A man speaks clearly adn carefully.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "332; and->adn, 4"
+    },
+    {
+        "id": "prompt_1941",
+        "prompt_text": "A young woman performs a sprech.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "333; speech->sprech, 5"
+    },
+    {
+        "id": "prompt_1942",
+        "prompt_text": "A woman gives a dramtic reading.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "334; dramatic->dramtic, 4"
+    },
+    {
+        "id": "prompt_1943",
+        "prompt_text": "A female narrating veyr clearly.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "336; very->veyr, 3"
+    },
+    {
+        "id": "prompt_1944",
+        "prompt_text": "Rain falling with wind blowing adn music playing as distant birds chirp.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "350; and->adn, 5"
+    },
+    {
+        "id": "prompt_1945",
+        "prompt_text": "A child speaks, a few beeps, adn a male rapping.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "362; and->adn, 6"
+    },
+    {
+        "id": "prompt_1946",
+        "prompt_text": "Somebody fiddling or tinkering witht a small object.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "363; with->witht, 4"
+    },
+    {
+        "id": "prompt_1947",
+        "prompt_text": "A man makes a sprech in a loud tone.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "374; speech->sprech, 4"
+    },
+    {
+        "id": "prompt_1948",
+        "prompt_text": "A larg train horn followed by a fast moving train.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "387; large->larg, 1"
+    },
+    {
+        "id": "prompt_1949",
+        "prompt_text": "A larg engine idols, a train horn blows.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "390; large->larg, 1"
+    },
+    {
+        "id": "prompt_1950",
+        "prompt_text": "Filing is ongoing as an adult male speaks, adn then metal scraping occurs.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "misspelling",
+        "source": "template",
+        "notes": "392; and->adn, 8"
+    },
+    {
+        "id": "prompt_1951",
+        "prompt_text": "Honking of horns with rattling  of passing trains.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "8"
+    },
+    {
+        "id": "prompt_1952",
+        "prompt_text": "Large aircraft   taking off with booming engines.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "11"
+    },
+    {
+        "id": "prompt_1953",
+        "prompt_text": "An engine is smoothly  being revved up and then revved up all the way.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "16"
+    },
+    {
+        "id": "prompt_1954",
+        "prompt_text": "An   aircraft motor is operating with rhythmic whirring, then wind roars.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "19"
+    },
+    {
+        "id": "prompt_1955",
+        "prompt_text": "Someone is snoring and an adult male laughs  and speaks.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "33"
+    },
+    {
+        "id": "prompt_1956",
+        "prompt_text": "Small boy speaking and   making animal sounds.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "48"
+    },
+    {
+        "id": "prompt_1957",
+        "prompt_text": "A woman  is speaking a crowd chuckles a little.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "57"
+    },
+    {
+        "id": "prompt_1958",
+        "prompt_text": "Audience laughing and cheering, a  man speaking, and a baby cries.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "65"
+    },
+    {
+        "id": "prompt_1959",
+        "prompt_text": "A large horn blow  followed by repetitive hissing.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "77"
+    },
+    {
+        "id": "prompt_1960",
+        "prompt_text": "Wind blows nearby, followed by   people talking nearby.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "78"
+    },
+    {
+        "id": "prompt_1961",
+        "prompt_text": "A    woman gives a speech while crowd applauds.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "82"
+    },
+    {
+        "id": "prompt_1962",
+        "prompt_text": "A    man speaking over an intercom as emergency sirens wail in the distance and grow louder as a vehicle engine runs.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "93"
+    },
+    {
+        "id": "prompt_1963",
+        "prompt_text": "A smack then a man speaking followed by    high frequency vibrating.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "94"
+    },
+    {
+        "id": "prompt_1964",
+        "prompt_text": "A man talking while whipping and jumping, followed  by music.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "116"
+    },
+    {
+        "id": "prompt_1965",
+        "prompt_text": "Quiet,  continuous rubbing against fabric.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "119"
+    },
+    {
+        "id": "prompt_1966",
+        "prompt_text": "A tool    motor idles and vibrates, then it accelerates and is accompanied by loud buzzing.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "139"
+    },
+    {
+        "id": "prompt_1967",
+        "prompt_text": "Woman speaks  and baby laughs.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "148"
+    },
+    {
+        "id": "prompt_1968",
+        "prompt_text": "Echos of dogs barking, people talking and a heavy door  being closed.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "151"
+    },
+    {
+        "id": "prompt_1969",
+        "prompt_text": "Man speaking over loud noises   and a cat meowing.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "154"
+    },
+    {
+        "id": "prompt_1970",
+        "prompt_text": "A dog barking as a man is talking while birds chirp and    wind blows into a microphone.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "155"
+    },
+    {
+        "id": "prompt_1971",
+        "prompt_text": "A man talking as insects buzz followed by footsteps walking  on grass.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "166"
+    },
+    {
+        "id": "prompt_1972",
+        "prompt_text": "Tinkling occurs, an adult female speaks, and music   plays in the background.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "175"
+    },
+    {
+        "id": "prompt_1973",
+        "prompt_text": "A train is chugging along blows   its whistle and steam escapes from its engine.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "190"
+    },
+    {
+        "id": "prompt_1974",
+        "prompt_text": "A vehicle shifts and   a man voices whispers.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "197"
+    },
+    {
+        "id": "prompt_1975",
+        "prompt_text": "Engine running  quietly with faint murmuring.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "198"
+    },
+    {
+        "id": "prompt_1976",
+        "prompt_text": "Multiples voices speak in the background of    a running vehicle.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "200"
+    },
+    {
+        "id": "prompt_1977",
+        "prompt_text": "Boy talking with a stream running    in the background.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "213"
+    },
+    {
+        "id": "prompt_1978",
+        "prompt_text": "Sewing   machine clacking and stopping with a clack.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "221"
+    },
+    {
+        "id": "prompt_1979",
+        "prompt_text": "Sewing   machine is being used.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "225"
+    },
+    {
+        "id": "prompt_1980",
+        "prompt_text": "Rustling  and murmuring.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "234"
+    },
+    {
+        "id": "prompt_1981",
+        "prompt_text": "Humming and   rustling with distant chirps.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "239"
+    },
+    {
+        "id": "prompt_1982",
+        "prompt_text": "Music  is playing as a child is talking.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "243"
+    },
+    {
+        "id": "prompt_1983",
+        "prompt_text": "Large vehicle crashes into water and then   drives by.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "251"
+    },
+    {
+        "id": "prompt_1984",
+        "prompt_text": "Loud motor boat roar and louder background    roar followed by male yelling.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "252"
+    },
+    {
+        "id": "prompt_1985",
+        "prompt_text": "A high   pitched constant beeping, briefly joined by a slightly lower pitched and more musical tone.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "261"
+    },
+    {
+        "id": "prompt_1986",
+        "prompt_text": "Men speaking in  the wind.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "276"
+    },
+    {
+        "id": "prompt_1987",
+        "prompt_text": "A muffled bus engine accelerating as an air  ventilation system runs while a group of people talks in the background.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "297"
+    },
+    {
+        "id": "prompt_1988",
+        "prompt_text": "Birds tweet  then slow down.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "309"
+    },
+    {
+        "id": "prompt_1989",
+        "prompt_text": "Quick footsteps on   a paved surface and lots of rustling and chewing until a man talks.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "319"
+    },
+    {
+        "id": "prompt_1990",
+        "prompt_text": "A    man speaks clearly and carefully.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "332"
+    },
+    {
+        "id": "prompt_1991",
+        "prompt_text": "A young    woman performs a speech.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "333"
+    },
+    {
+        "id": "prompt_1992",
+        "prompt_text": "A woman gives a    dramatic reading.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "334"
+    },
+    {
+        "id": "prompt_1993",
+        "prompt_text": "A female   narrating very clearly.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "336"
+    },
+    {
+        "id": "prompt_1994",
+        "prompt_text": "Rain falling with wind blowing and music  playing as distant birds chirp.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "350"
+    },
+    {
+        "id": "prompt_1995",
+        "prompt_text": "A child speaks, a few beeps, and a    male rapping.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "362"
+    },
+    {
+        "id": "prompt_1996",
+        "prompt_text": "Somebody fiddling or tinkering   with a small object.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "363"
+    },
+    {
+        "id": "prompt_1997",
+        "prompt_text": "A man makes   a speech in a loud tone.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "374"
+    },
+    {
+        "id": "prompt_1998",
+        "prompt_text": "A large train horn followed by a   fast moving train.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "387"
+    },
+    {
+        "id": "prompt_1999",
+        "prompt_text": "A large engine idols,  a train horn blows.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "390"
+    },
+    {
+        "id": "prompt_2000",
+        "prompt_text": "Filing is ongoing as an adult male speaks, and   then metal scraping occurs.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "space",
+        "source": "template",
+        "notes": "392"
+    },
+    {
+        "id": "prompt_2001",
+        "prompt_text": "The sound of honking horns mingled with the rattle of passing trains.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "8"
+    },
+    {
+        "id": "prompt_2002",
+        "prompt_text": "A sizable aircraft roars to life as its engines thunder, signaling its departure.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "11"
+    },
+    {
+        "id": "prompt_2003",
+        "prompt_text": "The engine is gradually accelerated and then pushed to its maximum speed.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "16"
+    },
+    {
+        "id": "prompt_2004",
+        "prompt_text": "The aircraft engine hums rhythmically, followed by a roaring wind.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "19"
+    },
+    {
+        "id": "prompt_2005",
+        "prompt_text": "An adult male is laughing and talking while someone snores.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "33"
+    },
+    {
+        "id": "prompt_2006",
+        "prompt_text": "A young boy is talking and mimicking animal noises.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "48"
+    },
+    {
+        "id": "prompt_2007",
+        "prompt_text": "A woman is speaking, and the crowd lets out a slight chuckle.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "57"
+    },
+    {
+        "id": "prompt_2008",
+        "prompt_text": "The audience is laughing and cheering, while a man is speaking, and a baby can be heard crying.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "65"
+    },
+    {
+        "id": "prompt_2009",
+        "prompt_text": "A loud horn blast followed by repeated hissing.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "77"
+    },
+    {
+        "id": "prompt_2010",
+        "prompt_text": "A breeze stirs nearby, followed by the sound of people conversing.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "78"
+    },
+    {
+        "id": "prompt_2011",
+        "prompt_text": "A woman delivers a speech as the audience claps enthusiastically.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "82"
+    },
+    {
+        "id": "prompt_2012",
+        "prompt_text": "A man is speaking over an intercom while emergency sirens wail in the distance, gradually growing louder as a vehicle engine runs.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "93"
+    },
+    {
+        "id": "prompt_2013",
+        "prompt_text": "A sharp sound, then a man's voice, followed by a high-pitched vibration.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "94"
+    },
+    {
+        "id": "prompt_2014",
+        "prompt_text": "A man is speaking as he whips and jumps, accompanied by music.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "116"
+    },
+    {
+        "id": "prompt_2015",
+        "prompt_text": "A steady, gentle friction against the material.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "119"
+    },
+    {
+        "id": "prompt_2016",
+        "prompt_text": "The motor of the tool hums and shakes, then speeds up with a loud buzzing sound.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "139"
+    },
+    {
+        "id": "prompt_2017",
+        "prompt_text": "The woman talks, and the baby giggles.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "148"
+    },
+    {
+        "id": "prompt_2018",
+        "prompt_text": "The sounds of barking dogs, chattering people, and a weighty door slamming shut.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "151"
+    },
+    {
+        "id": "prompt_2019",
+        "prompt_text": "A man is speaking amidst loud noises and the sound of a cat meowing.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "154"
+    },
+    {
+        "id": "prompt_2020",
+        "prompt_text": "As a man speaks, a dog barks and birds chirp, with the wind blowing into a microphone.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "155"
+    },
+    {
+        "id": "prompt_2021",
+        "prompt_text": "A man speaks while insects hum nearby, followed by the sound of footsteps on grass.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "166"
+    },
+    {
+        "id": "prompt_2022",
+        "prompt_text": "A chime sounds, an adult woman speaks, and there is music playing in the background.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "175"
+    },
+    {
+        "id": "prompt_2023",
+        "prompt_text": "A train is moving along, sounding its whistle as steam escapes from the engine.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "190"
+    },
+    {
+        "id": "prompt_2024",
+        "prompt_text": "A car moves, and a man murmurs.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "197"
+    },
+    {
+        "id": "prompt_2025",
+        "prompt_text": "The engine operates smoothly with a subtle hum.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "198"
+    },
+    {
+        "id": "prompt_2026",
+        "prompt_text": "Various voices can be heard in the background as the vehicle moves.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "200"
+    },
+    {
+        "id": "prompt_2027",
+        "prompt_text": "A boy chatting while a stream flows nearby.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "213"
+    },
+    {
+        "id": "prompt_2028",
+        "prompt_text": "The sewing machine clicks and halts with a final clack.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "221"
+    },
+    {
+        "id": "prompt_2029",
+        "prompt_text": "The sewing machine is in use.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "225"
+    },
+    {
+        "id": "prompt_2030",
+        "prompt_text": "Whispering and rustling.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "234"
+    },
+    {
+        "id": "prompt_2031",
+        "prompt_text": "Humming, rustling, and the distant sound of chirping.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "239"
+    },
+    {
+        "id": "prompt_2032",
+        "prompt_text": "A child is talking while music plays in the background.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "243"
+    },
+    {
+        "id": "prompt_2033",
+        "prompt_text": "A large vehicle plunges into the water and then continues on its way.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "251"
+    },
+    {
+        "id": "prompt_2034",
+        "prompt_text": "The sound of a noisy motorboat is accompanied by an even louder background roar, followed by a man shouting.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "252"
+    },
+    {
+        "id": "prompt_2035",
+        "prompt_text": "A persistent high-pitched beeping, momentarily accompanied by a somewhat lower and more melodic tone.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "261"
+    },
+    {
+        "id": "prompt_2036",
+        "prompt_text": "Men speaking into the breeze.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "276"
+    },
+    {
+        "id": "prompt_2037",
+        "prompt_text": "The sound of a bus engine revving up, mingled with the hum of an air ventilation system, while a group of people chat in the background.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "297"
+    },
+    {
+        "id": "prompt_2038",
+        "prompt_text": "Birds chirp and then gradually quiet down.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "309"
+    },
+    {
+        "id": "prompt_2039",
+        "prompt_text": "Rapid footsteps on a hard surface, accompanied by a lot of rustling and munching, until a man begins to speak.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "319"
+    },
+    {
+        "id": "prompt_2040",
+        "prompt_text": "A man articulates his words clearly and meticulously.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "332"
+    },
+    {
+        "id": "prompt_2041",
+        "prompt_text": "A young woman delivers a speech.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "333"
+    },
+    {
+        "id": "prompt_2042",
+        "prompt_text": "A woman delivers a dramatic performance.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "334"
+    },
+    {
+        "id": "prompt_2043",
+        "prompt_text": "A woman narrating with exceptional clarity.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "336"
+    },
+    {
+        "id": "prompt_2044",
+        "prompt_text": "With the wind blowing, rain falls while distant bird songs can be heard and music plays.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "350"
+    },
+    {
+        "id": "prompt_2045",
+        "prompt_text": "A child's voice is heard, followed by some beeps, and then a man begins to rap.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "362"
+    },
+    {
+        "id": "prompt_2046",
+        "prompt_text": "Someone is playing around with a small item.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "363"
+    },
+    {
+        "id": "prompt_2047",
+        "prompt_text": "A man delivers a speech in a boisterous voice.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "374"
+    },
+    {
+        "id": "prompt_2048",
+        "prompt_text": "A big train horn precedes a rapidly moving train.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "387"
+    },
+    {
+        "id": "prompt_2049",
+        "prompt_text": "A big engine idles, and a train horn sounds.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "390"
+    },
+    {
+        "id": "prompt_2050",
+        "prompt_text": "As an adult male speaks, filing continues, followed by the sound of metal scraping.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "rewrite",
+        "source": "template",
+        "notes": "392"
+    },
+    {
+        "id": "prompt_2051",
+        "prompt_text": "Honking of horns, with rattling of passing trains.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "8"
+    },
+    {
+        "id": "prompt_2052",
+        "prompt_text": "Large aircraft taking off, with booming engines.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "11"
+    },
+    {
+        "id": "prompt_2053",
+        "prompt_text": "An engine is smoothl.y being revved up, and then revved up all the way.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "16"
+    },
+    {
+        "id": "prompt_2054",
+        "prompt_text": "An aircraft m,otor is operating, with rhythmic whirring, then wind roars.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "19"
+    },
+    {
+        "id": "prompt_2055",
+        "prompt_text": "Someone is snoring, and an adult male laughs and speaks.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "33"
+    },
+    {
+        "id": "prompt_2056",
+        "prompt_text": "Small boy speaking, and making animal sounds.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "48"
+    },
+    {
+        "id": "prompt_2057",
+        "prompt_text": "A woman is speaking, a crowd chuckles a little.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "57"
+    },
+    {
+        "id": "prompt_2058",
+        "prompt_text": "Audience laughing and cheering, a m,an speaking, and a baby cries.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "65"
+    },
+    {
+        "id": "prompt_2059",
+        "prompt_text": "A large horn blow, followed by repetitive hissing.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "77"
+    },
+    {
+        "id": "prompt_2060",
+        "prompt_text": "Wind blows, nearby, followed by people talking nearby.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "78"
+    },
+    {
+        "id": "prompt_2061",
+        "prompt_text": "A woman gives a speech, while crowd applauds.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "82"
+    },
+    {
+        "id": "prompt_2062",
+        "prompt_text": "A man speak,ing over an intercom, as emergency sirens wail in the distance, and grow louder as a vehicle engine runs.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "93"
+    },
+    {
+        "id": "prompt_2063",
+        "prompt_text": "A smack, then a man speaking followed by high frequency vibrating.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "94"
+    },
+    {
+        "id": "prompt_2064",
+        "prompt_text": "A man talking, while whipping and jumping, followed by music.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "116"
+    },
+    {
+        "id": "prompt_2065",
+        "prompt_text": "Quiet, continuous rubbing, against fabric.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "119"
+    },
+    {
+        "id": "prompt_2066",
+        "prompt_text": "A tool motor idl.es, and vibrates, then it accel,erates and is accompanied by loud buzzing.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "139"
+    },
+    {
+        "id": "prompt_2067",
+        "prompt_text": "Woman speaks, and baby laughs.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "148"
+    },
+    {
+        "id": "prompt_2068",
+        "prompt_text": "Echos of dogs barking, people talking, and a heavy door being closed.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "151"
+    },
+    {
+        "id": "prompt_2069",
+        "prompt_text": "Man speaking over loud noises, and a cat meowing.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "154"
+    },
+    {
+        "id": "prompt_2070",
+        "prompt_text": "A dog barking as a man is talking, while birds chirp and wind blows into a microphone.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "155"
+    },
+    {
+        "id": "prompt_2071",
+        "prompt_text": "A man talking as insects buzz, followed by footsteps walking on grass.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "166"
+    },
+    {
+        "id": "prompt_2072",
+        "prompt_text": "Tinkling occurs. An adult femal.e speaks, and music plays in the background.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "175"
+    },
+    {
+        "id": "prompt_2073",
+        "prompt_text": "A train is chugging along, blows its whistle and steam escapes from its engine.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "190"
+    },
+    {
+        "id": "prompt_2074",
+        "prompt_text": "A vehicle shifts, and a man voices whispers.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "197"
+    },
+    {
+        "id": "prompt_2075",
+        "prompt_text": "Engine running quietly, with faint murm,uring.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "198"
+    },
+    {
+        "id": "prompt_2076",
+        "prompt_text": "Multiples voices speak, in the background of a running vehicle.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "200"
+    },
+    {
+        "id": "prompt_2077",
+        "prompt_text": "Boy talking, with a stream running in the background.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "213"
+    },
+    {
+        "id": "prompt_2078",
+        "prompt_text": "Sewing machine clacking, and stopping with a clack.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "221"
+    },
+    {
+        "id": "prompt_2079",
+        "prompt_text": "Sewing machine, is being used.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "225"
+    },
+    {
+        "id": "prompt_2080",
+        "prompt_text": "Rustling, and murmuring.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "234"
+    },
+    {
+        "id": "prompt_2081",
+        "prompt_text": "Humming, and rustling with distant chirps.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "239"
+    },
+    {
+        "id": "prompt_2082",
+        "prompt_text": "Music is playing, as a child is talking.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "243"
+    },
+    {
+        "id": "prompt_2083",
+        "prompt_text": "Large vehicle crashes into water, and then drives by.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "251"
+    },
+    {
+        "id": "prompt_2084",
+        "prompt_text": "Loud motor boat roar, and louder background roar followed by male yelling.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "252"
+    },
+    {
+        "id": "prompt_2085",
+        "prompt_text": "A high pitched constant beeping, briefly joined, by a sl.ightly lower pitched and more musical tone.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "261"
+    },
+    {
+        "id": "prompt_2086",
+        "prompt_text": "Men speaking, in the wind.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "276"
+    },
+    {
+        "id": "prompt_2087",
+        "prompt_text": "A muffled bus engine accelerating, as an air ventilation system runs, while a group of people talks in the background.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "297"
+    },
+    {
+        "id": "prompt_2088",
+        "prompt_text": "Birds tweet, then slow down.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "309"
+    },
+    {
+        "id": "prompt_2089",
+        "prompt_text": "Quick footsteps on a paved surface, and lots of rustling and chewing until. a man talks.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "319"
+    },
+    {
+        "id": "prompt_2090",
+        "prompt_text": "A man speaks, clearly and carefully.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "332"
+    },
+    {
+        "id": "prompt_2091",
+        "prompt_text": "A young woman, performs a speech.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "333"
+    },
+    {
+        "id": "prompt_2092",
+        "prompt_text": "A woman gives, a dram.atic reading.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "334"
+    },
+    {
+        "id": "prompt_2093",
+        "prompt_text": "A female narrating, very clearly.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "336"
+    },
+    {
+        "id": "prompt_2094",
+        "prompt_text": "Rain fal,ling, with wind blowing and music playing as distant birds chirp.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "350"
+    },
+    {
+        "id": "prompt_2095",
+        "prompt_text": "A child speaks. A few beeps, and a male rapping.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "362"
+    },
+    {
+        "id": "prompt_2096",
+        "prompt_text": "Somebody fiddling, or tin,ering with a small object.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "363"
+    },
+    {
+        "id": "prompt_2097",
+        "prompt_text": "A man makes a speech, in a loud tone.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "374"
+    },
+    {
+        "id": "prompt_2098",
+        "prompt_text": "A large train horn, followed by a fast moving train.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "387"
+    },
+    {
+        "id": "prompt_2099",
+        "prompt_text": "A large engine idols. A train horn blows.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "390"
+    },
+    {
+        "id": "prompt_2100",
+        "prompt_text": "Filing is ongoing, as an adult male speaks, and then m,etal scraping occurs.",
+        "Dimensions of evaluation": "Robustness",
+        "perturbation_type": "punctuate",
+        "source": "template",
+        "notes": "392"
+    }
+]

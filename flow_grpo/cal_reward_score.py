@@ -32,8 +32,6 @@ reward_fn_str = "qwen3_omni_semantic_align_score"
 
 if reward_fn_str == "qwen25_omni_semantic_align_score":
     reward_fn = qwen25_omni_semantic_align_score(DEVICE)
-elif reward_fn_str == "qwen25_omni_thinking_semantic_align_score": 
-    reward_fn = qwen25_omni_thinking_semantic_align_score(DEVICE)
 elif reward_fn_str == "qwen3_omni_thinking_semantic_align_score":
     reward_fn = qwen3_omni_thinking_semantic_align_score(DEVICE)
 elif reward_fn_str == "qwen3_omni_semantic_align_score": 
@@ -49,7 +47,7 @@ def get_prompt_text(prompt_id: str) -> str:
 
     Tries the 'text' field first; if unavailable, tries common variants.
     """
-    prompt_path = "./sets/acc_prompt.json"
+    prompt_path = "../sets/acc_prompt.json"
 
     prompts = json.load(open(prompt_path, 'r'))
     

@@ -110,7 +110,19 @@ bash Resonate/scripts/infer.sh
 Make sure to modify `ckpt_path` in the script to point to the specific checkpoint you obtained from your training run.
 
 ## Evaluation
-TODO
+We provide a simple script to evaluate your model's performance on [TTA-Bench](https://arxiv.org/abs/2509.02398). 
+First, install the required packages:
+```
+pip install msclap audiobox_aesthetics torchcodec
+```
+
+Then run:
+```
+scripts/eval.sh
+```
+Before running the script, update `ckpt_path` to point to your trained model checkpoint, and set `output_path` to the directory where you want to save the results.
+
+The script will automatically perform batch inference on the accuracy subset of TTA-Bench and compute AudioBox-AES, CLAPScore, and AQAScore (based on Qwen3-Omni-Instruct).
 
 ## Citation
 TODO

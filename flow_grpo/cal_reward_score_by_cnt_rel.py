@@ -9,7 +9,7 @@ from collections import defaultdict
 result_jsonl = sys.argv[1]
 outfile = sys.argv[2]
 
-prompt_path = "./sets/acc_prompt.json"
+prompt_path = "../sets/acc_prompt.json"
 
 # ------------------------------------------------------------------
 # Load prompt metadata: id -> (event_count, event_relation)
