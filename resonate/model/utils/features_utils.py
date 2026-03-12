@@ -49,8 +49,8 @@ class FeaturesUtils(nn.Module):
             self.encoder_name = encoder_name
             if encoder_name == 'flan-t5': 
                 logging.info('FeatureUtils: Loading google/flan-t5-large ... ')   
-                self.tokenizer = AutoTokenizer.from_pretrained('../../models/flan-t5-large')
-                self.text_encoder = T5EncoderModel.from_pretrained('../../models/flan-t5-large').eval()
+                self.tokenizer = AutoTokenizer.from_pretrained('google/flan-t5-large')
+                self.text_encoder = T5EncoderModel.from_pretrained('google/flan-t5-large').eval()
 
             elif encoder_name == 'flan-t5-clap' or encoder_name == 'flan-t5-clap-cat':
                 import laion_clap
