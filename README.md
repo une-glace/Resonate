@@ -70,7 +70,7 @@ To launch GRPO training, run:
 bash scripts/train_grpo.sh
 ```
 
-This script uses the configuration file `Resonate/config/GRPO_flant5_44kMMVAE_fluxaudio_audiocaps_qwen25omni_semantic.yaml`. By default, the training employs Qwen2.5-Omni as the reward model and uses `Resonate/data/AudioCaps/GRPO_Meta/train_metadata.jsonl` as the dataset (which corresponds to the AudioCaps training set).
+This script uses the configuration file `Resonate/config/GRPO_flant5_44kMMVAE_fluxaudio_audiocaps_qwen25omni_semantic.yaml`. By default, the training employs Qwen2.5-Omni-7B as the reward model and uses `Resonate/data/AudioCaps/GRPO_Meta/train_metadata.jsonl` as the dataset (which corresponds to the AudioCaps training set).
 The training outputs will be saved to `exps/TTA/{exp_id}`. 
 
 **Note:** The default configuration requires approximately 90GB of GPU memory. To reduce memory usage, you can decrease the values of `sample.num_audio_per_prompt` and `sample.train_batch_size`.
