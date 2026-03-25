@@ -42,8 +42,8 @@ sample:
   num_steps: 10
   eval_num_steps: 40
   guidance_scale: 4.5
-  train_batch_size: 24
-  num_audio_per_prompt: 24 # rollout number 
+  train_batch_size: 8
+  num_audio_per_prompt: 8 # rollout number 
   num_batches_per_epoch: 4
   global_std: true
   same_latent: false
@@ -53,8 +53,8 @@ sample:
 ## training
 train: 
   cfg: True
-  batch_size: 24 
-  gradient_accumulation_steps: 2
+  batch_size: 4
+  gradient_accumulation_steps: 4
   num_inner_epochs: 1
   timestep_fraction: 0.99
   beta: 0.04  # for KL loss

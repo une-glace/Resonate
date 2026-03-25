@@ -1,7 +1,7 @@
 DEBUG=False
 export WANDB_MODE=offline
 
-export CUDA_VISIBLE_DEVICES=0,1
+export CUDA_VISIBLE_DEVICES=0,1,2,3
 NUM_GPUS=$(echo ${CUDA_VISIBLE_DEVICES:-""} | tr ',' '\n' | wc -l)
 config_name=GRPO_flant5_44kMMVAE_fluxaudio_audiocaps_qwen25omni_semantic
 
