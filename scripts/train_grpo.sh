@@ -1,5 +1,5 @@
 DEBUG=False
-export WANDB_MODE=offline
+export WANDB_MODE=online
 
 export CUDA_VISIBLE_DEVICES=0,1,2,3
 NUM_GPUS=$(echo ${CUDA_VISIBLE_DEVICES:-""} | tr ',' '\n' | wc -l)
