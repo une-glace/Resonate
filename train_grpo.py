@@ -839,7 +839,7 @@ def train(cfg: DictConfig):
             advantages = (gathered_rewards['avg'] - gathered_rewards['avg'].mean()) / (gathered_rewards['avg'].std() + 1e-4)
 
         # ungather advantages; we only need to keep the entries corresponding to the samples on this process
-        advantages = torch.as_tensor(advantages)
+        advantages = torch.as_tensor(advantages, dtype=torch.float32)
         samples["advantages"] = (
             advantages.reshape(accelerator.num_processes, -1, advantages.shape[-1])[accelerator.process_index]
             .to(accelerator.device)
@@ -880,15 +880,32 @@ def train(cfg: DictConfig):
         # )
         assert num_timesteps == config.sample.num_steps+1
 
+        remainder = total_batch_size % config.train.batch_size
+        if remainder != 0:
+            kept_batch_size = total_batch_size - remainder
+            if kept_batch_size <= 0:
+                raise ValueError(
+                    f"Filtered batch size {total_batch_size} is smaller than train.batch_size={config.train.batch_size}"
+                )
+            if accelerator.is_main_process:
+                logger.warning(
+                    f"Dropping {remainder} samples so training batches are divisible by train.batch_size={config.train.batch_size}"
+                )
+            samples = {k: v[:kept_batch_size] for k, v in samples.items()}
+            total_batch_size = kept_batch_size
+
+        # Keep rollout tensors on CPU and move only the active training micro-batch back to GPU.
+        samples = {k: v.cpu() for k, v in samples.items()}
+
         #################### TRAINING ####################
         for inner_epoch in range(config.train.num_inner_epochs):
             # shuffle samples along batch dimension
-            perm = torch.randperm(total_batch_size, device=accelerator.device)
+            perm = torch.randperm(total_batch_size)
             samples = {k: v[perm] for k, v in samples.items()}
 
             # rebatch for training
             samples_batched = {
-                k: v.reshape(-1, total_batch_size//config.sample.num_batches_per_epoch, *v.shape[1:])
+                k: v.reshape(-1, config.train.batch_size, *v.shape[1:])
                 for k, v in samples.items()
             }
 
@@ -906,6 +923,10 @@ def train(cfg: DictConfig):
                 position=0,
                 disable=not accelerator.is_main_process,
             ):
+                sample = {
+                    k: v.to(accelerator.device, non_blocking=True)
+                    for k, v in sample.items()
+                }
                 if config.train.cfg:
                     # concat negative prompts to sample prompts to avoid two forward passes
                     embeds = torch.cat(
