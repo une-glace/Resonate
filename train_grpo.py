@@ -325,7 +325,7 @@ def unwrap_model(model, accelerator):
     model = model._orig_mod if is_compiled_module(model) else model
     return model
 
-def save_ckpt(save_dir, transformer, global_step, accelerator, ema, transformer_trainable_parameters, config):
+def save_ckpt(save_dir, transformer, optimizer, epoch, global_step, accelerator, ema, transformer_trainable_parameters, config):
     # save_root = os.path.join(save_dir, "checkpoints", f"checkpoint-{global_step}")
     # save_root_lora = os.path.join(save_root, "lora")
     # os.makedirs(save_root_lora, exist_ok=True)
@@ -336,9 +336,46 @@ def save_ckpt(save_dir, transformer, global_step, accelerator, ema, transformer_
     #     if config.train.ema:
     #         ema.copy_temp_to(transformer_trainable_parameters)
 
+    model_state = unwrap_model(transformer, accelerator).state_dict()
     model_path = os.path.join(save_dir, f'model_{global_step}.pth')
-    torch.save(transformer.module.state_dict(), model_path)
+    torch.save(model_state, model_path)
     logger.info(f'Network weights saved to {model_path}.')
+
+    checkpoint = {
+        "epoch": epoch,
+        "global_step": global_step,
+        "model": model_state,
+        "optimizer": optimizer.state_dict(),
+    }
+    if config.train.ema:
+        checkpoint["ema"] = ema.state_dict()
+
+    checkpoint_path = os.path.join(save_dir, 'checkpoint_latest.pth')
+    torch.save(checkpoint, checkpoint_path)
+    logger.info(f'Training checkpoint saved to {checkpoint_path}.')
+
+
+def load_training_checkpoint(checkpoint_path, transformer, optimizer, ema, config):
+    checkpoint = torch.load(checkpoint_path, map_location="cpu", weights_only=False)
+
+    if "model" not in checkpoint:
+        transformer.load_weights(checkpoint)
+        logger.warning(
+            f"Loaded weights-only checkpoint from {checkpoint_path}; optimizer and progress were not restored."
+        )
+        return 0, 0
+
+    transformer.load_weights(checkpoint["model"])
+    optimizer.load_state_dict(checkpoint["optimizer"])
+    if config.train.ema and "ema" in checkpoint:
+        ema.load_state_dict(checkpoint["ema"])
+
+    resume_epoch = int(checkpoint.get("epoch", 0))
+    global_step = int(checkpoint.get("global_step", 0))
+    logger.info(
+        f"Resumed training from {checkpoint_path} at epoch {resume_epoch}, global_step {global_step}."
+    )
+    return resume_epoch, global_step
 
 @record
 @hydra.main(version_base='1.3.2', config_path='config', config_name='train_config.yaml')
@@ -531,6 +568,17 @@ def train(cfg: DictConfig):
         eps=config.train.adam_epsilon,
     )
 
+    resume_epoch = 0
+    global_step = 0
+    if config.checkpoint:
+        resume_epoch, global_step = load_training_checkpoint(
+            config.checkpoint,
+            transformer,
+            optimizer,
+            ema,
+            config,
+        )
+
     # prepare prompt and reward fn
     if config.reward_fn == "qwen3_omni_thinking_semantic_align_score":
         reward_fn = multi_score("auto", config.reward_fn)
@@ -644,8 +692,7 @@ def train(cfg: DictConfig):
     # assert config.sample.train_batch_size % config.train.batch_size == 0
     # assert samples_per_epoch % total_train_batch_size == 0
 
-    epoch = 0
-    global_step = 0
+    epoch = resume_epoch
     train_iter = iter(train_dataloader)
 
     while epoch < config.total_epoch:
@@ -653,8 +700,6 @@ def train(cfg: DictConfig):
         transformer.eval()
         if epoch % config.eval_freq == 0 and config.do_eval:
             eval(pipeline, test_dataloader, text_encoders, tokenizers, config, accelerator, global_step, eval_reward_fn, executor, autocast, num_train_timesteps, ema, transformer_trainable_parameters)
-        if epoch % config.save_freq == 0 and epoch > 0 and accelerator.is_main_process:
-            save_ckpt(save_dir, transformer, global_step, accelerator, ema, transformer_trainable_parameters, config)
 
         #################### SAMPLING ####################
         transformer.eval()
@@ -1038,7 +1083,19 @@ def train(cfg: DictConfig):
             # make sure we did an optimization step at the end of the inner epoch
             # assert accelerator.sync_gradients
 
-        epoch+=1
+        epoch += 1
+        if epoch % config.save_freq == 0 and accelerator.is_main_process:
+            save_ckpt(
+                save_dir,
+                transformer,
+                optimizer,
+                epoch,
+                global_step,
+                accelerator,
+                ema,
+                transformer_trainable_parameters,
+                config,
+            )
 
 if __name__ == "__main__":
     train()
