@@ -536,7 +536,8 @@ def train(cfg: DictConfig):
         reward_fn = multi_score("auto", config.reward_fn)
     else: 
         reward_fn = multi_score(accelerator.device, config.reward_fn)
-    eval_reward_fn = multi_score(accelerator.device, config.reward_fn)
+    # Reuse the same reward model for eval to avoid loading a second copy on each rank.
+    eval_reward_fn = reward_fn
 
     if config.prompt_fn == "audioprompt":
         train_dataset = AudioPromptDataset(config.dataset, 'train')
