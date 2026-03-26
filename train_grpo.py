@@ -752,10 +752,15 @@ def train(cfg: DictConfig):
             log_probs = torch.stack(log_probs, dim=1)  # shape after stack (batch_size, num_steps)
             timesteps = timesteps.repeat(config.sample.train_batch_size, 1)  # (batch_size, num_steps)
 
-            # compute rewards asynchronously
-            rewards = executor.submit(reward_fn, audios, prompts, prompt_metadata, vae_sr=vae_sr, only_strict=True)
-            # yield to to make sure reward computation starts
-            time.sleep(0)
+            # Compute rewards on the main thread. The local reward model uses CUDA,
+            # and running it inside a background thread can deadlock with NCCL.
+            rewards, reward_metadata = reward_fn(
+                audios,
+                prompts,
+                prompt_metadata,
+                vae_sr=vae_sr,
+                only_strict=True,
+            )
 
             samples.append(
                 {
@@ -770,23 +775,14 @@ def train(cfg: DictConfig):
                         :, 1:
                     ],  # each entry is the latent after timestep t
                     "log_probs": log_probs,
-                    "rewards": rewards,
+                    "rewards": {
+                        key: torch.as_tensor(value, device=accelerator.device).float()
+                        for key, value in rewards.items()
+                    },
                 }
             )
             
-        # wait for all rewards to be computed
-        for sample in pbar(
-            samples,
-            desc="Waiting for rewards",
-            disable=not accelerator.is_main_process,
-            position=0,
-        ):
-            rewards, reward_metadata = sample["rewards"].result()
-            # accelerator.print(reward_metadata)
-            sample["rewards"] = {
-                key: torch.as_tensor(value, device=accelerator.device).float()
-                for key, value in rewards.items()
-            }
+        # Rewards are computed synchronously above, so there is nothing to wait for here.
 
         # collate samples into dict where each entry has shape (num_batches_per_epoch * sample.batch_size, ...)
         samples = {
