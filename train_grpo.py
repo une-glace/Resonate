@@ -895,27 +895,9 @@ def train(cfg: DictConfig):
         del samples["rewards"]
         del samples["prompt_ids"]
 
-        # Get the mask for samples where all advantages are zero across the time dimension
+        # Get the mask for samples where all advantages are zero across the time dimension.
+        # We must keep the same number of samples on every rank before DDP training starts.
         mask = (samples["advantages"].abs().sum(dim=1) != 0)
-
-        # If the number of True values in mask is not divisible by config.sample.num_batches_per_epoch,
-        # randomly change some False values to True to make it divisible
-        num_batches = config.sample.num_batches_per_epoch
-        true_count = mask.sum()
-        if true_count % num_batches != 0:
-            false_indices = torch.where(~mask)[0]
-            num_to_change = num_batches - (true_count % num_batches)
-            if len(false_indices) >= num_to_change:
-                random_indices = torch.randperm(len(false_indices))[:num_to_change]
-                mask[false_indices[random_indices]] = True
-        if accelerator.is_main_process and config.use_wandb:
-            wandb.log(
-                {
-                    "actual_batch_size": mask.sum().item()//config.sample.num_batches_per_epoch,
-                },
-                step=global_step,
-            )
-        # Filter out samples where the entire time dimension of advantages is zero
         samples = {k: v[mask] for k, v in samples.items()}
 
         total_batch_size, num_timesteps = samples["timesteps"].shape
@@ -925,19 +907,31 @@ def train(cfg: DictConfig):
         # )
         assert num_timesteps == config.sample.num_steps+1
 
-        remainder = total_batch_size % config.train.batch_size
-        if remainder != 0:
-            kept_batch_size = total_batch_size - remainder
-            if kept_batch_size <= 0:
-                raise ValueError(
-                    f"Filtered batch size {total_batch_size} is smaller than train.batch_size={config.train.batch_size}"
-                )
-            if accelerator.is_main_process:
-                logger.warning(
-                    f"Dropping {remainder} samples so training batches are divisible by train.batch_size={config.train.batch_size}"
-                )
-            samples = {k: v[:kept_batch_size] for k, v in samples.items()}
-            total_batch_size = kept_batch_size
+        local_kept = torch.tensor([total_batch_size], device=accelerator.device, dtype=torch.long)
+        kept_counts = accelerator.gather(local_kept)
+        target_batch_size = int(kept_counts.min().item())
+        target_batch_size = (target_batch_size // config.train.batch_size) * config.train.batch_size
+        if target_batch_size <= 0:
+            raise ValueError(
+                f"Shared kept batch size across ranks is {target_batch_size}; check reward filtering and train.batch_size={config.train.batch_size}."
+            )
+
+        if accelerator.is_main_process and len(torch.unique(kept_counts)) > 1:
+            logger.warning(
+                f"Ranks kept different numbers of samples after masking: {kept_counts.tolist()}. Truncating all ranks to {target_batch_size}."
+            )
+
+        if total_batch_size > target_batch_size:
+            samples = {k: v[:target_batch_size] for k, v in samples.items()}
+            total_batch_size = target_batch_size
+
+        if accelerator.is_main_process and config.use_wandb:
+            wandb.log(
+                {
+                    "actual_batch_size": total_batch_size / config.sample.num_batches_per_epoch,
+                },
+                step=global_step,
+            )
 
         # Keep rollout tensors on CPU and move only the active training micro-batch back to GPU.
         samples = {k: v.cpu() for k, v in samples.items()}
