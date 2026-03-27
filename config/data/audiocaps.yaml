@@ -1,4 +1,4 @@
 datasets: 
   - name: AudioCaps
     weight: 1
-    meta: [./data/AudioCaps/train_audiocaps_from_grpo_wduration.jsonl]
+    meta: [./data/AudioCaps/train_audiocaps_wduration.jsonl]
