@@ -101,6 +101,15 @@ def train(cfg: DictConfig):
     dataset, sampler, loader = setup_training_datasets(cfg)
     info_if_rank_zero(log, f'Number of training samples: {len(dataset):,d}')
     info_if_rank_zero(log, f'Number of training batches: {len(loader)}')
+    if len(loader) == 0:
+        per_gpu_batch_size = cfg.batch_size
+        raise ValueError(
+            "Training dataloader is empty. "
+            f"dataset_size={len(dataset)}, per_gpu_batch_size={per_gpu_batch_size}, world_size={num_gpus}. "
+            "This usually means your metadata file has too few samples for the current batch size, "
+            "or the configured dataset path points to a tiny example file. "
+            f"Current data config: {cfg.data.datasets}"
+        )
 
     do_eval = cfg.get('do_eval', True)
     info_if_rank_zero(log, f'Evaluation enabled: {do_eval}')
