@@ -47,7 +47,7 @@ val_interval: 20_000
 eval_interval: 20_000
 save_eval_interval: 20_000
 save_weights_interval: 20_000
-save_checkpoint_interval: 20_000
+save_checkpoint_interval: 5_000
 save_copy_iterations: []
 
 batch_size: 128
