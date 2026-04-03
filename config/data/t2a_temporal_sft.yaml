@@ -1,0 +1,4 @@
+datasets: 
+  - name: AudioSetSL
+    weight: 1
+    meta: [/inspire/hdd/project/embodied-multimodality/public/xqli/ALE/F-CLAP/data/AudioSet_SL/finelap_metadata_em_filtered.jsonl]
