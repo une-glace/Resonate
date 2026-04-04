@@ -59,6 +59,12 @@ class FeaturesUtils(nn.Module):
                 self.laion_clap_model = laion_clap.CLAP_Module(enable_fusion=False, amodel='HTSAT-base').eval()
                 self._clap_ckpt_path = "./weights/music_speech_audioset_epoch_15_esc_89.98.pt"  
                 self.laion_clap_model.load_ckpt(self._clap_ckpt_path, verbose=False)
+            elif encoder_name == 'qwen3-06b':
+                logging.info('FeatureUtils: Loading Qwen/Qwen2.5-0.5B ...')
+                self.tokenizer = AutoTokenizer.from_pretrained('Qwen/Qwen2.5-0.5B')
+                # Qwen is a decoder-only model, but used here for feature extraction
+                from transformers import AutoModel
+                self.text_encoder = AutoModel.from_pretrained('Qwen/Qwen2.5-0.5B').eval()
             else: 
                 raise ValueError(f"Encoder {encoder_name} is not allowed, select from ['clip', 'flan-t5', 'flan-t5-clap', 'flan-t5-clap-cat', 'umT5', 'qwen3-4b', 'qwen25-omni-7b', 'qwen3-06b']")
 
@@ -126,6 +132,27 @@ class FeaturesUtils(nn.Module):
             
             if self.encoder_name == 'flan-t5-clap-cat': 
                 text_features_c = torch.cat([text_features.mean(dim=-2), text_features_c], dim=-1)
+        elif self.encoder_name == 'qwen3-06b':
+            if self.tokenizer.pad_token is None:
+                self.tokenizer.pad_token = self.tokenizer.eos_token
+            tokens = self.tokenizer(
+                text,
+                max_length=77,
+                padding="max_length",
+                truncation=True,
+                return_tensors="pt"
+            )
+            input_ids, attention_mask = tokens.input_ids.to(self.device), tokens.attention_mask.to(self.device)
+            # Get hidden states from the last layer
+            outputs = self.text_encoder(
+                input_ids=input_ids,
+                attention_mask=attention_mask,
+                output_hidden_states=True
+            )
+            text_features = outputs.hidden_states[-1]
+            # Use mean pooling or last token for global context
+            text_features_c = text_features.mean(dim=1)
+            
         return text_features, text_features_c
 
     # @torch.inference_mode()
