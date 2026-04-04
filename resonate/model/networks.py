@@ -280,9 +280,19 @@ class FluxAudio(nn.Module):
         if 'text_rot' in src_dict:
             del src_dict['text_rot']
 
+        # handle dimension mismatch for text projections when switching text encoders
+        keys_to_delete = []
+        for k, v in src_dict.items():
+            if k in self.state_dict():
+                if v.shape != self.state_dict()[k].shape:
+                    log.warning(f"Shape mismatch for {k}: checkpoint {v.shape}, model {self.state_dict()[k].shape}. Skipping this parameter.")
+                    keys_to_delete.append(k)
+        for k in keys_to_delete:
+            del src_dict[k]
+
         # if 'empty_string_feat_c' not in src_dict.keys():  # FIXME: issue of version mismatch here
         #     src_dict['empty_string_feat_c'] = src_dict['empty_string_feat'].mean(dim=0)
-        self.load_state_dict(src_dict, strict=True)
+        self.load_state_dict(src_dict, strict=False)
 
     @property
     def device(self) -> torch.device:

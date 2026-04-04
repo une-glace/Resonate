@@ -33,8 +33,8 @@ drop_residual: False
 ## model
 model: fluxaudio_m_44k # meanaudio_s, fluxaudio_s
 text_encoder_name: qwen3-06b   # umT5, flan-t5, flan-t5-clap, flan-t5-clap-cat, clip
-text_dim: 1024
-text_c_dim: 1024 
+text_dim: 896
+text_c_dim: 896 
 use_rope: True
 
 ## training
