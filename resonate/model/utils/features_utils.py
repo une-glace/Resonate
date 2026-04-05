@@ -61,7 +61,7 @@ class FeaturesUtils(nn.Module):
                 self.laion_clap_model.load_ckpt(self._clap_ckpt_path, verbose=False)
             elif encoder_name == 'qwen3-06b':
                 logging.info('FeatureUtils: Loading Qwen/Qwen3-06B ...')
-                self.tokenizer = AutoTokenizer.from_pretrained('Qwen/Qwen3-06B')
+                self.tokenizer = AutoTokenizer.from_pretrained('Qwen/Qwen2.5-0.5B')
                 # Qwen is a decoder-only model, but used here for feature extraction
                 from transformers import AutoModel
                 self.text_encoder = AutoModel.from_pretrained('Qwen/Qwen2.5-0.5B', torch_dtype=torch.bfloat16).eval()
